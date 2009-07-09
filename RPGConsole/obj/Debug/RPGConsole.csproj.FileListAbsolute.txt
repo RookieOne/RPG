@@ -1,0 +1,11 @@
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\RPGConsole.Contracts.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\RPGConsole.Contracts.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\RPGConsole.exe
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\RPGConsole.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\CombatLibrary.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\Foundation.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\Foundation.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\bin\Debug\CombatLibrary.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\obj\Debug\RPGConsole.exe
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\RPGConsole\obj\Debug\RPGConsole.pdb

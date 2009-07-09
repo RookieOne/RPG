@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="UNNAMED" total="38" failures="0" not-run="0" date="2009-07-09" time="00:34:15">
+  <environment nunit-version="2.4.8.0" clr-version="2.0.50727.3074" os-version="Microsoft Windows NT 6.0.6001 Service Pack 1" platform="Win32NT" cwd="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug" machine-name="LUBU" user="Jonathan" user-domain="Lubu" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="UNNAMED" success="True" time="1.804" asserts="0">
+    <results>
+      <test-suite name="CombatLibraryTest.dll" success="True" time="0.498" asserts="0">
+        <results>
+          <test-suite name="CombatLibraryTest" success="True" time="0.494" asserts="0">
+            <results>
+              <test-suite name="CombatActions" success="True" time="0.289" asserts="0">
+                <results>
+                  <test-suite name="RegularAttackActionTests" success="True" time="0.289" asserts="0">
+                    <results>
+                      <test-suite name="When_regular_attacking_for_greater_than_total_health" success="True" time="0.212" asserts="0">
+                        <results>
+                          <test-case name="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_greater_than_total_health.should_kill_player" executed="True" success="True" time="0.059" asserts="1" />
+                          <test-case name="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_greater_than_total_health.should_take_player_health_to_zerp" executed="True" success="True" time="0.007" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_regular_attacking_for_less_than_total_health" success="True" time="0.005" asserts="0">
+                        <results>
+                          <test-case name="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_less_than_total_health.should_damage_player_by_attack_power" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_less_than_total_health.should_not_kill_player" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="CombatEncounters" success="True" time="0.110" asserts="0">
+                <results>
+                  <test-suite name="CombatEncounterTests" success="True" time="0.109" asserts="0">
+                    <results>
+                      <test-suite name="When_adding_monsters" success="True" time="0.073" asserts="0">
+                        <results>
+                          <test-case name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_adding_monsters.should_add_monster_to_list" executed="True" success="True" time="0.002" asserts="1" />
+                          <test-case name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_adding_monsters.should_have_one_monster_in_list" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_setting_players" success="True" time="0.035" asserts="0">
+                        <results>
+                          <test-case name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_setting_players.should_be_the_same_players" executed="True" success="True" time="0.005" asserts="2" />
+                          <test-case name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_setting_players.should_send_player_ready_for_action_events_for_each_player" executed="True" success="True" time="0.003" asserts="1" />
+                          <test-case name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_setting_players.should_set_players_in_combat_encounter" executed="True" success="True" time="0.003" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="CombatMembers" success="True" time="0.007" asserts="0">
+                <results>
+                  <test-suite name="MonsterCombatMemberTests" success="True" time="0.007" asserts="0">
+                    <results>
+                      <test-suite name="When_setting_target_strategy" success="True" time="0.007" asserts="0">
+                        <results>
+                          <test-case name="CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.When_setting_target_strategy.should_set_target_strategy" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="TargetStrategies" success="True" time="0.088" asserts="0">
+                <results>
+                  <test-suite name="RandomTargetStrategyTests" success="True" time="0.088" asserts="0">
+                    <results>
+                      <test-suite name="When_getting_target" success="True" time="0.088" asserts="0">
+                        <results>
+                          <test-case name="CombatLibraryTest.TargetStrategies.RandomTargetStrategyTests.When_getting_target.should_be_a_single_target" executed="True" success="True" time="0.004" asserts="1" />
+                          <test-case name="CombatLibraryTest.TargetStrategies.RandomTargetStrategyTests.When_getting_target.should_return_one_of_the_combat_members" executed="True" success="True" time="0.006" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite name="FoundationTest.dll" success="True" time="0.722" asserts="0">
+        <results>
+          <test-suite name="FoundationTest" success="True" time="0.713" asserts="0">
+            <results>
+              <test-suite name="Eventing" success="True" time="0.398" asserts="0">
+                <results>
+                  <test-suite name="DefaultEventAggregatorTests" success="True" time="0.259" asserts="0">
+                    <results>
+                      <test-suite name="When_publishing_an_event_by_name_with_a_single_subscription" success="True" time="0.133" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_by_name_with_a_single_subscription.should_execute_subscription_action" executed="True" success="True" time="0.035" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_publishing_an_event_by_name_with_no_subscriptions" success="True" time="0.002" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_by_name_with_no_subscriptions.should_not_throw_an_exception" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_publishing_an_event_with_a_single_subscription" success="True" time="0.054" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_with_a_single_subscription.should_execute_subscription_action" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_publishing_an_event_with_no_subscriptions" success="True" time="0.002" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_with_no_subscriptions.should_not_throw_an_exception" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_subscribing_to_an_event" success="True" time="0.022" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event.should_add_action_to_subscription_list" executed="True" success="True" time="0.001" asserts="1" />
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event.should_have_only_one_subscription" executed="True" success="True" time="0.012" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_subscribing_to_an_event_by_name" success="True" time="0.018" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event_by_name.should_add_action_to_subscription_list" executed="True" success="True" time="0.002" asserts="1" />
+                          <test-case name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event_by_name.should_have_only_one_subscription" executed="True" success="True" time="0.002" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="EventAggregatorTests" success="True" time="0.114" asserts="0">
+                    <results>
+                      <test-suite name="When_publishing_an_event" success="True" time="0.025" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.EventAggregatorTests.When_publishing_an_event.should_publish_event" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_publishing_an_event_by_name" success="True" time="0.006" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.EventAggregatorTests.When_publishing_an_event_by_name.should_publish_event" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_subscribing_to_an_event" success="True" time="0.066" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.EventAggregatorTests.When_subscribing_to_an_event.should_have_only_one_subscription" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_subscribing_to_an_event_by_name" success="True" time="0.009" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Eventing.EventAggregatorTests.When_subscribing_to_an_event_by_name.should_have_only_one_subscription" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="Extensions" success="True" time="0.076" asserts="0">
+                <results>
+                  <test-suite name="EnumerableExtensionsTests" success="True" time="0.076" asserts="0">
+                    <results>
+                      <test-suite name="When_for_eaching_an_enumeration" success="True" time="0.076" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Extensions.EnumerableExtensionsTests.When_for_eaching_an_enumeration.should_execute_action_for_every_item" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="FoundationTest.Extensions.EnumerableExtensionsTests.When_for_eaching_an_enumeration.should_execute_action_on_every_item" executed="True" success="True" time="0.002" asserts="3" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="Messaging" success="True" time="0.239" asserts="0">
+                <results>
+                  <test-suite name="DefaultMessageBrokerTests" success="True" time="0.153" asserts="0">
+                    <results>
+                      <test-suite name="When_registering_for_a_message" success="True" time="0.018" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message.should_have_only_one_registration" executed="True" success="True" time="0.002" asserts="1" />
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message.should_register_action_for_message" executed="True" success="True" time="0.002" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_registering_for_a_message_by_name" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message_by_name.should_have_only_one_registration" executed="True" success="True" time="0.002" asserts="1" />
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message_by_name.should_register_action_for_message" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_sending_a_message_by_name_with_a_single_registration" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_by_name_with_a_single_registration.should_execute_action" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_sending_a_message_by_name_with_no_subscriptions" success="True" time="0.015" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_by_name_with_no_subscriptions.should_not_throw_an_exception" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_sending_a_message_with_a_single_registration" success="True" time="0.051" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_with_a_single_registration.should_execute_action" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_sending_a_message_with_no_registrations" success="True" time="0.006" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_with_no_registrations.should_not_throw_an_exception" executed="True" success="True" time="0.004" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="MessageBrokerTests" success="True" time="0.086" asserts="0">
+                    <results>
+                      <test-suite name="When_registering_for_a_message" success="True" time="0.028" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.MessageBrokerTests.When_registering_for_a_message.should_have_only_one_registration" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_registering_for_a_message_by_name" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.MessageBrokerTests.When_registering_for_a_message_by_name.should_have_only_one_registration" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_sending_a_message" success="True" time="0.040" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.MessageBrokerTests.When_sending_a_message.should_send_message" executed="True" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="When_sending_a_message_by_name" success="True" time="0.008" asserts="0">
+                        <results>
+                          <test-case name="FoundationTest.Messaging.MessageBrokerTests.When_sending_a_message_by_name.should_send_message" executed="True" success="True" time="0.002" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CA463F3B-5F66-4E22-9788-09ACDE888B4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoundationTest</RootNamespace>
+    <AssemblyName>FoundationTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ContextSpecifications\ContextSpecification.cs" />
+    <Compile Include="ContextSpecifications\WithEventing.cs" />
+    <Compile Include="ContextSpecifications\WithMessaging.cs" />
+    <Compile Include="Eventing\Contexts\NewDefaultEventAggregator.cs" />
+    <Compile Include="Eventing\DefaultEventAggregatorTests\When_publishing_an_event_by_name_with_a_single_subscription.cs" />
+    <Compile Include="Eventing\DefaultEventAggregatorTests\When_publishing_an_event_by_name_with_no_subscriptions.cs" />
+    <Compile Include="Eventing\DefaultEventAggregatorTests\When_publishing_an_event_with_a_single_subscription.cs" />
+    <Compile Include="Eventing\DefaultEventAggregatorTests\When_publishing_an_event_with_no_subscriptions.cs" />
+    <Compile Include="Eventing\DefaultEventAggregatorTests\When_subscribing_to_an_event.cs" />
+    <Compile Include="Eventing\DefaultEventAggregatorTests\When_subscribing_to_an_event_by_name.cs" />
+    <Compile Include="Eventing\EventAggregatorTests\When_publishing_an_event.cs" />
+    <Compile Include="Eventing\EventAggregatorTests\When_publishing_an_event_by_name.cs" />
+    <Compile Include="Eventing\EventAggregatorTests\When_subscribing_to_an_event.cs" />
+    <Compile Include="Eventing\EventAggregatorTests\When_subscribing_to_an_event_by_name.cs" />
+    <Compile Include="Extensions\EnumerableExtensionsTests\When_for_eaching_an_enumeration.cs" />
+    <Compile Include="Messaging\Contexts\NewDefaultMessageBroker.cs" />
+    <Compile Include="Messaging\DefaultMessageBrokerTests\When_registering_for_a_message.cs" />
+    <Compile Include="Messaging\DefaultMessageBrokerTests\When_registering_for_a_message_by_name.cs" />
+    <Compile Include="Messaging\DefaultMessageBrokerTests\When_sending_a_message_by_name_with_a_single_registration.cs" />
+    <Compile Include="Messaging\DefaultMessageBrokerTests\When_sending_a_message_by_name_with_no_subscriptions.cs" />
+    <Compile Include="Messaging\DefaultMessageBrokerTests\When_sending_a_message_with_no_registrations.cs" />
+    <Compile Include="Messaging\DefaultMessageBrokerTests\When_sending_a_message_with_a_single_registration.cs" />
+    <Compile Include="Messaging\MessageBrokerTests\When_sending_a_message.cs" />
+    <Compile Include="Messaging\MessageBrokerTests\When_sending_a_message_by_name.cs" />
+    <Compile Include="Messaging\MessageBrokerTests\When_registering_for_a_message.cs" />
+    <Compile Include="Messaging\MessageBrokerTests\When_registering_for_a_message_by_name.cs" />
+    <Compile Include="Mocks\MockEvent.cs" />
+    <Compile Include="Mocks\MockEventAggregator.cs" />
+    <Compile Include="Mocks\MockMessage.cs" />
+    <Compile Include="Mocks\MockMessageBroker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation\Foundation.csproj">
+      <Project>{D310D9DD-6B3B-47D0-820A-A0C482F603D6}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

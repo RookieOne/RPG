@@ -1,0 +1,9 @@
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\bin\Debug\CombatLibrary.Contracts.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\bin\Debug\CombatLibrary.Contracts.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\bin\Debug\CombatLibrary.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\bin\Debug\CombatLibrary.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\obj\Debug\CombatLibrary.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\obj\Debug\CombatLibrary.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\bin\Debug\Foundation.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\bin\Debug\Foundation.pdb

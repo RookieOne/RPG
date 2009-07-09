@@ -1,0 +1,1322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- saved from NCover 3.0 Export url='http://www.ncover.com/' -->
+<coverage profilerVersion="3.1.4.5286" driverVersion="3.1.4" exportversion="3" viewdisplayname="" startTime="2009-07-09T05:34:07.82Z" measureTime="2009-07-09T05:34:15.87Z" projectName="RPG" buildid="80d339cc-5e0e-4494-877e-c56fc1890985" coveragenodeid="0" failed="false" satisfactorybranchthreshold="95" satisfactorycoveragethreshold="95" satisfactorycyclomaticcomplexitythreshold="20" satisfactoryfunctionthreshold="80" satisfactoryunvisitedsequencepoints="10" uiviewtype="TreeView" viewguid="RPG" viewfilterstyle="None" viewreportstyle="SequencePointCoveragePercentage" viewsortstyle="Name">
+  <rebasedpaths />
+  <filters />
+  <documents>
+    <doc id="46" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatActions\CombatAction.cs" cs="20AC901D5FCDCEBD7D77F70ACEBBE441" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="48" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatActions\CombatActionExtensions.cs" cs="32AA6B75B7D55680B9F55CD3C19B1080" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="47" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatActions\RegularAttackAction.cs" cs="3A12E0771B54E8B9E5EF40E73C052952" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="52" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatEncounters\CombatEncounter.cs" cs="84F2C36822484F6B054E76D11A722D84" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="44" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatMembers\CombatMember.cs" cs="8015445AC4982F6F1BF381A1613ECDC8" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="49" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatMembers\MonsterCombatMember.cs" cs="22BF7B4BA78D8C2DD39836DCF9269D93" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="45" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\CombatMembers\PlayerCombatMember.cs" cs="1FE438CDBBA5727496BE1C1B2DD78D7D" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="53" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\Events\CombatDeathEvent.cs" cs="9A84D95F4D2AAC0A12E7B7C18049AAB6" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="54" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\Events\PlayerReadyForActionEvent.cs" cs="8E972E125BA95C2ED531BBAADAE660C3" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="51" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\TargetStrategies\RandomTargetStrategy.cs" cs="06438F9A48BA75501CEE9BD778C2AB71" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="50" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibrary\TargetStrategies\SingleTarget.cs" cs="41C340791896AFE438CB04F232B094A5" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="32" nid="0" />
+    <doc id="1" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatActions\Contexts\SinglePlayerWith100Health.cs" cs="1731065FB997947A0402191DD508F593" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="3" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatActions\RegularAttackActionTests\When_regular_attacking_for_greater_than_total_health.cs" cs="057A88C62CF83154422DEFFA9FC583E9" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="2" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatActions\RegularAttackActionTests\When_regular_attacking_for_less_than_total_health.cs" cs="05869DD170C685FEEB259B723296F652" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="7" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatEncounters\CombatEncounterTests\When_adding_monsters.cs" cs="A553AACAE38CC040CA1D07B4C5AF643E" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="10" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatEncounters\CombatEncounterTests\When_setting_players.cs" cs="7194CD097735A8E94940B60F7A0EEDB7" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="6" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatEncounters\Contexts\NewCombatEncounter.cs" cs="11A762BDA8EDC15D700FA45CB5914732" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="8" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatMembers\MonsterCombatMemberTests\Contexts\NewMonster.cs" cs="76A112B2C08F256E812E5CD5DF07B8F7" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="9" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\CombatMembers\MonsterCombatMemberTests\When_setting_target_strategy.cs" cs="32C76A9E00CBF961AB99450325AA5D97" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="4" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\TargetStrategies\Contexts\SimplePartyOfFour.cs" cs="0905A0F887490BE4241AE2ACFBA4D5B0" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="5" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\TargetStrategies\RandomTargetStrategyTests\When_getting_target.cs" cs="64D166FBF2028828F36737FB4FCD311E" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="19" nid="0" />
+    <doc id="39" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\Foundation\Eventing\DefaultEventAggregator.cs" cs="5452BC7234C3CB77F7E24AF42ECD42DB" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="29" nid="0" />
+    <doc id="41" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\Foundation\Eventing\EventAggregator.cs" cs="F2748DBAF8434A6BAC9AF86F5CC80079" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="29" nid="0" />
+    <doc id="40" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\Foundation\Extensions\EnumerableExtensions.cs" cs="0C5995C8562CC721BCA08F8B3961539B" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="29" nid="0" />
+    <doc id="42" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\Foundation\Messaging\DefaultMessageBroker.cs" cs="9E8D6D14DB42E52B74EAE9C88BC5581D" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="29" nid="0" />
+    <doc id="43" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\Foundation\Messaging\MessageBroker.cs" cs="F37395871422FE05D0A390A1E1EC60D9" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="29" nid="0" />
+    <doc id="11" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\ContextSpecifications\ContextSpecification.cs" cs="27CE2F5D94976480A3F1F368161C2417" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="12" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\ContextSpecifications\WithEventing.cs" cs="38E02472AE511C63930509A339638E17" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="34" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\ContextSpecifications\WithMessaging.cs" cs="92F1E9EEFA1B28F00DD5A3C5694816C5" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="15" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\Contexts\NewDefaultEventAggregator.cs" cs="6CD145EFC3F25FCD34CBC1C5DD053520" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="21" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\DefaultEventAggregatorTests\When_publishing_an_event_by_name_with_a_single_subscription.cs" cs="279199C9EA6F4C05EF28DE745453923D" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="20" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\DefaultEventAggregatorTests\When_publishing_an_event_by_name_with_no_subscriptions.cs" cs="550337F1CD8C8DEFAB90F2F5069BF174" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="19" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\DefaultEventAggregatorTests\When_publishing_an_event_with_a_single_subscription.cs" cs="7F978501E4ECA719D18C3FB5399F77AE" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="17" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\DefaultEventAggregatorTests\When_publishing_an_event_with_no_subscriptions.cs" cs="1CA0B8521424124CED0D57055B900F2B" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="16" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\DefaultEventAggregatorTests\When_subscribing_to_an_event.cs" cs="9E07CCE6CF2D85328DE207C86C735B4D" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="18" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\DefaultEventAggregatorTests\When_subscribing_to_an_event_by_name.cs" cs="B6D9C096581D1A5BD37043281CBDB13A" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="22" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\EventAggregatorTests\When_publishing_an_event.cs" cs="260B3D332FF3B360331AF29621C159D4" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="23" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\EventAggregatorTests\When_publishing_an_event_by_name.cs" cs="080A88DA465EAA4F6FA47DBEEB1330FC" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="24" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\EventAggregatorTests\When_subscribing_to_an_event.cs" cs="D4262EEED5EC6661A91EF1B5BB38B4FF" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="25" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Eventing\EventAggregatorTests\When_subscribing_to_an_event_by_name.cs" cs="8CA2C7680501F4229906D4AF3CEBE9F6" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="14" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Extensions\EnumerableExtensionsTests\When_for_eaching_an_enumeration.cs" cs="D19A08D8DBB068390791404976F69D41" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="26" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\Contexts\NewDefaultMessageBroker.cs" cs="9F9C5E9E2EBAEC28BE3010685C391CE4" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="27" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\DefaultMessageBrokerTests\When_registering_for_a_message.cs" cs="127FE6CEDB5B1818FD5041433FDF20FD" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="28" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\DefaultMessageBrokerTests\When_registering_for_a_message_by_name.cs" cs="83D4BF9126500AAF4D6EF8F71DF17F26" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="32" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\DefaultMessageBrokerTests\When_sending_a_message_by_name_with_a_single_registration.cs" cs="95CD01B784E76BAFE8005790FD41A786" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="30" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\DefaultMessageBrokerTests\When_sending_a_message_by_name_with_no_subscriptions.cs" cs="4C8201588E417BFA5C179D84041D39F3" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="29" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\DefaultMessageBrokerTests\When_sending_a_message_with_a_single_registration.cs" cs="059C11EFB4A40A6879C67CF4F460A80F" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="31" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\DefaultMessageBrokerTests\When_sending_a_message_with_no_registrations.cs" cs="98690E8399E26B856ECEC6C7D195AEDB" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="37" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\MessageBrokerTests\When_registering_for_a_message.cs" cs="50A73B01B86236E81AFBEDF9EFCE6A52" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="38" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\MessageBrokerTests\When_registering_for_a_message_by_name.cs" cs="ADC7877E02646B90497BE99723900CA4" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="35" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\MessageBrokerTests\When_sending_a_message.cs" cs="0F3AE9F006335A4744B3D2A257A6CB3C" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="36" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Messaging\MessageBrokerTests\When_sending_a_message_by_name.cs" cs="0DF9B2C5ABBD36E29CC660C9939A11CB" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="13" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Mocks\MockEventAggregator.cs" cs="0DF4DDA935789A11316BFC88B39A3560" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="33" excluded="false" url="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\Mocks\MockMessageBroker.cs" cs="B2D2305FA0E7BDE4DE61CC6EC969B757" csa="406ea660-64cf-4c82-b6f0-42d48172a799" om="20" nid="0" />
+    <doc id="0" excluded="false" url="None" cs="" csa="00000000-0000-0000-0000-000000000000" om="0" nid="0" />
+  </documents>
+  <module moduleId="32" name="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\CombatLibrary.dll" assembly="CombatLibrary" assemblyIdentity="CombatLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL" nid="0">
+    <class name="CombatLibrary.CombatActions.CombatAction" signature="CombatLibrary.CombatActions.CombatAction" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="46" nid="0" />
+      </method>
+      <method name="Execute" signature="Execute() : CombatLibrary.CombatActions.ICombatAction" excluded="false" instrumented="true" cc="2" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="19" el="19" c="13" ec="33" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="46" nid="0" />
+        <seqpnt vc="2" o="E" l="20" el="20" c="17" ec="29" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="15" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="46" nid="0" />
+        <seqpnt vc="2" o="15" l="22" el="22" c="13" ec="25" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="19" l="23" el="23" c="9" ec="10" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="1A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="46" nid="0" />
+      </method>
+      <method name="SetTarget" signature="SetTarget(CombatLibrary.TargetStrategies.ITarget target) : CombatLibrary.CombatActions.ICombatAction" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="11" el="11" c="13" ec="30" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="8" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="C" l="13" el="13" c="9" ec="10" ex="false" fl="65536" doc="46" nid="0" />
+        <seqpnt vc="2" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="46" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.CombatActions.CombatActionExtensions" signature="CombatLibrary.CombatActions.CombatActionExtensions" excluded="false" nid="0">
+      <method name="SetTarget" signature="SetTarget(CombatLibrary.CombatActions.ICombatAction combatAction,CombatLibrary.CombatMembers.ICombatMember combatMember) : CombatLibrary.CombatActions.ICombatAction [static]" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="10" el="10" c="13" ec="75" ex="false" fl="65536" doc="48" nid="0" />
+        <seqpnt vc="2" o="10" l="11" el="11" c="9" ec="10" ex="false" fl="65536" doc="48" nid="0" />
+        <seqpnt vc="2" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="48" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.Events.CombatDeathEvent" signature="CombatLibrary.Events.CombatDeathEvent" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor(CombatLibrary.CombatMembers.ICombatMember combatMember) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="0" l="7" el="7" c="9" ec="60" ex="false" fl="65536" doc="53" nid="0" />
+        <seqpnt vc="1" o="8" l="9" el="9" c="13" ec="43" ex="false" fl="65536" doc="53" nid="0" />
+        <seqpnt vc="1" o="10" l="10" el="10" c="9" ec="10" ex="false" fl="65536" doc="53" nid="0" />
+        <seqpnt vc="1" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="53" nid="0" />
+      </method>
+      <method name="get_MemberThatDied" signature="get_MemberThatDied() : CombatLibrary.CombatMembers.ICombatMember" excluded="false" instrumented="false" cc="1" vc="0" nid="0">
+        <seqpnt vc="0" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="53" nid="0" />
+      </method>
+      <method name="set_MemberThatDied" signature="set_MemberThatDied(CombatLibrary.CombatMembers.ICombatMember value) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="53" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.CombatEncounters.CombatEncounter" signature="CombatLibrary.CombatEncounters.CombatEncounter" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="0" l="19" el="19" c="9" ec="33" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="2" o="8" l="21" el="21" c="13" ec="58" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="2" o="13" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="2" o="14" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+      </method>
+      <method name="AddMonsters" signature="AddMonsters(System.Collections.Generic.IEnumerable&lt;CombatLibrary.CombatMembers.IMonsterCombatMember&gt; monsters) : CombatLibrary.CombatEncounters.ICombatEncounter" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="31" el="31" c="13" ec="42" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="1" o="E" l="32" el="32" c="13" ec="25" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="1" o="12" l="33" el="33" c="9" ec="10" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+      </method>
+      <method name="IsFinished" signature="IsFinished() : System.Boolean" excluded="false" instrumented="false" cc="7" vc="0" nid="0">
+        <seqpnt vc="0" o="1" l="37" el="37" c="13" ec="44" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="4" l="38" el="38" c="37" ec="46" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="13" l="38" el="38" c="22" ec="33" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="1B" l="39" el="39" c="17" ec="37" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="25" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="28" l="41" el="41" c="21" ec="48" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="2A" l="42" el="42" c="21" ec="27" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="2C" l="38" el="38" c="34" ec="36" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="37" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="4B" l="45" el="45" c="13" ec="43" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="4E" l="46" el="46" c="36" ec="44" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="5D" l="46" el="46" c="22" ec="32" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="65" l="47" el="47" c="17" ec="36" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="6F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="72" l="49" el="49" c="21" ec="47" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="74" l="50" el="50" c="21" ec="27" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="76" l="46" el="46" c="33" ec="35" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="81" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="8E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="9A" l="53" el="53" c="13" ec="60" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="9B" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="A1" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="0" o="A5" l="54" el="54" c="9" ec="10" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="0" o="A7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+      </method>
+      <method name="SetPlayers" signature="SetPlayers(System.Collections.Generic.IEnumerable&lt;CombatLibrary.CombatMembers.PlayerCombatMember&gt; players) : CombatLibrary.CombatEncounters.ICombatEncounter" excluded="false" instrumented="true" cc="3" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="63" el="63" c="13" ec="32" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="1" o="9" l="65" el="65" c="36" ec="43" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="2" o="12" l="65" el="65" c="22" ec="32" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="2" o="1A" l="67" el="67" c="17" ec="80" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="2" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="3" o="27" l="65" el="65" c="33" ec="35" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="3" o="2F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="1" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+        <seqpnt vc="1" o="44" l="69" el="69" c="13" ec="25" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="1" o="48" l="70" el="70" c="9" ec="10" ex="false" fl="65536" doc="52" nid="0" />
+        <seqpnt vc="1" o="49" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="52" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.Events.CombatEvents" signature="CombatLibrary.Events.CombatEvents" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="false" cc="1" vc="0" nid="0">
+        <seqpnt vc="0" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="0" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.CombatMembers.CombatMember" signature="CombatLibrary.CombatMembers.CombatMember" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="10" nid="0">
+        <seqpnt vc="10" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+      </method>
+      <method name="AddHealth" signature="AddHealth(System.Int32 health) : void" excluded="false" instrumented="true" cc="1" vc="8" nid="0">
+        <seqpnt vc="8" o="1" l="17" el="17" c="13" ec="30" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="8" o="10" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+        <seqpnt vc="8" o="10" l="18" el="18" c="9" ec="10" ex="false" fl="65536" doc="44" nid="0" />
+      </method>
+      <method name="get_Health" signature="get_Health() : System.Int32" excluded="false" instrumented="true" cc="1" vc="16" nid="0">
+        <seqpnt vc="16" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+      </method>
+      <method name="get_IsDead" signature="get_IsDead() : System.Boolean" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="12" el="12" c="19" ec="38" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="2" o="10" l="12" el="12" c="39" ec="40" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="2" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+      </method>
+      <method name="set_Health" signature="set_Health(System.Int32 value) : void" excluded="false" instrumented="true" cc="1" vc="11" nid="0">
+        <seqpnt vc="11" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+      </method>
+      <method name="TakeDamage" signature="TakeDamage(System.Int32 damage) : void" excluded="false" instrumented="true" cc="2" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="22" el="22" c="13" ec="30" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="2" o="10" l="24" el="24" c="13" ec="28" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="2" o="1E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+        <seqpnt vc="1" o="21" l="26" el="26" c="17" ec="28" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="1" o="29" l="27" el="27" c="17" ec="69" ex="false" fl="65536" doc="44" nid="0" />
+        <seqpnt vc="1" o="36" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="44" nid="0" />
+        <seqpnt vc="2" o="36" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="44" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.CombatMembers.MonsterCombatMember" signature="CombatLibrary.CombatMembers.MonsterCombatMember" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="49" nid="0" />
+      </method>
+      <method name="GetTarget" signature="GetTarget(System.Collections.Generic.IEnumerable&lt;CombatLibrary.CombatMembers.ICombatMember&gt; combatMembers) : CombatLibrary.TargetStrategies.ITarget" excluded="false" instrumented="false" cc="1" vc="0" nid="0">
+        <seqpnt vc="0" o="1" l="20" el="20" c="13" ec="61" ex="false" fl="65536" doc="49" nid="0" />
+        <seqpnt vc="0" o="10" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="49" nid="0" />
+        <seqpnt vc="0" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="49" nid="0" />
+      </method>
+      <method name="SetTargetStrategy" signature="SetTargetStrategy(CombatLibrary.TargetStrategies.ITargetStrategy targetStrategy) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="29" el="29" c="13" ec="46" ex="false" fl="65536" doc="49" nid="0" />
+        <seqpnt vc="1" o="8" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="49" nid="0" />
+        <seqpnt vc="1" o="8" l="30" el="30" c="9" ec="10" ex="false" fl="65536" doc="49" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.CombatMembers.PlayerCombatMember" signature="CombatLibrary.CombatMembers.PlayerCombatMember" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor(System.Int32 health) : void" excluded="false" instrumented="true" cc="1" vc="8" nid="0">
+        <seqpnt vc="8" o="0" l="5" el="5" c="9" ec="46" ex="false" fl="65536" doc="45" nid="0" />
+        <seqpnt vc="8" o="8" l="7" el="7" c="13" ec="31" ex="false" fl="65536" doc="45" nid="0" />
+        <seqpnt vc="8" o="10" l="8" el="8" c="9" ec="10" ex="false" fl="65536" doc="45" nid="0" />
+        <seqpnt vc="8" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="45" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.Events.PlayerReadyForActionEvent" signature="CombatLibrary.Events.PlayerReadyForActionEvent" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor(CombatLibrary.CombatMembers.PlayerCombatMember player) : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="0" l="14" el="14" c="9" ec="68" ex="false" fl="65536" doc="54" nid="0" />
+        <seqpnt vc="2" o="8" l="16" el="16" c="13" ec="29" ex="false" fl="65536" doc="54" nid="0" />
+        <seqpnt vc="2" o="10" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="54" nid="0" />
+        <seqpnt vc="2" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="54" nid="0" />
+      </method>
+      <method name="get_Player" signature="get_Player() : CombatLibrary.CombatMembers.PlayerCombatMember" excluded="false" instrumented="false" cc="1" vc="0" nid="0">
+        <seqpnt vc="0" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="54" nid="0" />
+      </method>
+      <method name="set_Player" signature="set_Player(CombatLibrary.CombatMembers.PlayerCombatMember value) : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="54" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.TargetStrategies.RandomTargetStrategy" signature="CombatLibrary.TargetStrategies.RandomTargetStrategy" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="51" nid="0" />
+      </method>
+      <method name="GetTarget" signature="GetTarget(System.Collections.Generic.IEnumerable&lt;CombatLibrary.CombatMembers.ICombatMember&gt; combatMembers) : CombatLibrary.TargetStrategies.ITarget" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="69" ex="false" fl="65536" doc="51" nid="0" />
+        <seqpnt vc="1" o="13" l="14" el="14" c="13" ec="62" ex="false" fl="65536" doc="51" nid="0" />
+        <seqpnt vc="1" o="20" l="16" el="16" c="13" ec="51" ex="false" fl="65536" doc="51" nid="0" />
+        <seqpnt vc="1" o="29" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="51" nid="0" />
+        <seqpnt vc="1" o="2A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="51" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.CombatActions.RegularAttackAction" signature="CombatLibrary.CombatActions.RegularAttackAction" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor(System.Int32 attackPower) : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="0" l="5" el="5" c="9" ec="52" ex="false" fl="65536" doc="47" nid="0" />
+        <seqpnt vc="2" o="8" l="7" el="7" c="13" ec="40" ex="false" fl="65536" doc="47" nid="0" />
+        <seqpnt vc="2" o="F" l="8" el="8" c="9" ec="10" ex="false" fl="65536" doc="47" nid="0" />
+        <seqpnt vc="2" o="10" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="47" nid="0" />
+      </method>
+      <method name="OnExecute" signature="OnExecute() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="14" el="14" c="13" ec="46" ex="false" fl="65536" doc="47" nid="0" />
+        <seqpnt vc="2" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="47" nid="0" />
+        <seqpnt vc="2" o="13" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="47" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibrary.TargetStrategies.SingleTarget" signature="CombatLibrary.TargetStrategies.SingleTarget" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor(CombatLibrary.CombatMembers.ICombatMember combatMember) : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="0" l="7" el="7" c="9" ec="56" ex="false" fl="65536" doc="50" nid="0" />
+        <seqpnt vc="3" o="8" l="9" el="9" c="13" ec="41" ex="false" fl="65536" doc="50" nid="0" />
+        <seqpnt vc="3" o="10" l="10" el="10" c="9" ec="10" ex="false" fl="65536" doc="50" nid="0" />
+        <seqpnt vc="3" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="50" nid="0" />
+      </method>
+      <method name="get_CombatMember" signature="get_CombatMember() : CombatLibrary.CombatMembers.ICombatMember" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="50" nid="0" />
+      </method>
+      <method name="set_CombatMember" signature="set_CombatMember(CombatLibrary.CombatMembers.ICombatMember value) : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="50" nid="0" />
+      </method>
+      <method name="TakeDamage" signature="TakeDamage(System.Int32 damage) : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="16" el="16" c="13" ec="45" ex="false" fl="65536" doc="50" nid="0" />
+        <seqpnt vc="2" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="50" nid="0" />
+        <seqpnt vc="2" o="E" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="50" nid="0" />
+      </method>
+    </class>
+  </module>
+  <module moduleId="19" name="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\CombatLibraryTest.dll" assembly="CombatLibraryTest" assemblyIdentity="CombatLibraryTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL" nid="0">
+    <class name="CombatLibraryTest.CombatEncounters.Contexts.NewCombatEncounter" signature="CombatLibraryTest.CombatEncounters.Contexts.NewCombatEncounter" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="6" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="12" el="12" c="13" ec="26" ex="false" fl="65536" doc="6" nid="0" />
+        <seqpnt vc="2" o="8" l="14" el="14" c="13" ec="54" ex="false" fl="65536" doc="6" nid="0" />
+        <seqpnt vc="2" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="6" nid="0" />
+        <seqpnt vc="2" o="13" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="6" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.Contexts.NewMonster" signature="CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.Contexts.NewMonster" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="8" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="26" ex="false" fl="65536" doc="8" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="14" c="13" ec="50" ex="false" fl="65536" doc="8" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="8" nid="0" />
+        <seqpnt vc="1" o="13" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="8" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.TargetStrategies.Contexts.SimplePartyOfFour" signature="CombatLibraryTest.TargetStrategies.Contexts.SimplePartyOfFour" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="4" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="13" el="13" c="13" ec="26" ex="false" fl="65536" doc="4" nid="0" />
+        <seqpnt vc="1" o="8" l="15" el="15" c="13" ec="56" ex="false" fl="65536" doc="4" nid="0" />
+        <seqpnt vc="1" o="13" l="16" el="16" c="13" ec="61" ex="false" fl="65536" doc="4" nid="0" />
+        <seqpnt vc="1" o="26" l="17" el="17" c="13" ec="61" ex="false" fl="65536" doc="4" nid="0" />
+        <seqpnt vc="1" o="39" l="18" el="18" c="13" ec="61" ex="false" fl="65536" doc="4" nid="0" />
+        <seqpnt vc="1" o="4C" l="19" el="19" c="13" ec="61" ex="false" fl="65536" doc="4" nid="0" />
+        <seqpnt vc="1" o="5F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="4" nid="0" />
+        <seqpnt vc="1" o="5F" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="4" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatActions.Contexts.SinglePlayerWith100Health" signature="CombatLibraryTest.CombatActions.Contexts.SinglePlayerWith100Health" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="1" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="12" el="12" c="13" ec="26" ex="false" fl="65536" doc="1" nid="0" />
+        <seqpnt vc="2" o="8" l="14" el="14" c="13" ec="57" ex="false" fl="65536" doc="1" nid="0" />
+        <seqpnt vc="2" o="15" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="1" nid="0" />
+        <seqpnt vc="2" o="15" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="1" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_adding_monsters" signature="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_adding_monsters" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="7" nid="0" />
+      </method>
+      <method name="should_add_monster_to_list" signature="should_add_monster_to_list() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="30" el="30" c="13" ec="70" ex="false" fl="65536" doc="7" nid="0" />
+        <seqpnt vc="1" o="1E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="7" nid="0" />
+        <seqpnt vc="1" o="1E" l="31" el="31" c="9" ec="10" ex="false" fl="65536" doc="7" nid="0" />
+      </method>
+      <method name="should_have_one_monster_in_list" signature="should_have_one_monster_in_list() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="36" el="36" c="13" ec="66" ex="false" fl="65536" doc="7" nid="0" />
+        <seqpnt vc="1" o="18" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="7" nid="0" />
+        <seqpnt vc="1" o="18" l="37" el="37" c="9" ec="10" ex="false" fl="65536" doc="7" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="15" el="15" c="13" ec="25" ex="false" fl="65536" doc="7" nid="0" />
+        <seqpnt vc="1" o="8" l="17" el="17" c="13" ec="50" ex="false" fl="65536" doc="7" nid="0" />
+        <seqpnt vc="1" o="13" l="19" el="22" c="13" ec="34" ex="false" fl="65536" doc="7" nid="0" />
+        <seqpnt vc="1" o="28" l="24" el="24" c="13" ec="52" ex="false" fl="65536" doc="7" nid="0" />
+        <seqpnt vc="1" o="35" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="7" nid="0" />
+        <seqpnt vc="1" o="35" l="25" el="25" c="9" ec="10" ex="false" fl="65536" doc="7" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.TargetStrategies.RandomTargetStrategyTests.When_getting_target" signature="CombatLibraryTest.TargetStrategies.RandomTargetStrategyTests.When_getting_target" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="5" nid="0" />
+      </method>
+      <method name="should_be_a_single_target" signature="should_be_a_single_target() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="22" el="22" c="13" ec="69" ex="false" fl="65536" doc="5" nid="0" />
+        <seqpnt vc="1" o="17" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="5" nid="0" />
+        <seqpnt vc="1" o="17" l="23" el="23" c="9" ec="10" ex="false" fl="65536" doc="5" nid="0" />
+      </method>
+      <method name="should_return_one_of_the_combat_members" signature="should_return_one_of_the_combat_members() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="28" el="28" c="13" ec="56" ex="false" fl="65536" doc="5" nid="0" />
+        <seqpnt vc="1" o="D" l="30" el="30" c="13" ec="79" ex="false" fl="65536" doc="5" nid="0" />
+        <seqpnt vc="1" o="24" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="5" nid="0" />
+        <seqpnt vc="1" o="24" l="31" el="31" c="9" ec="10" ex="false" fl="65536" doc="5" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="14" el="14" c="13" ec="25" ex="false" fl="65536" doc="5" nid="0" />
+        <seqpnt vc="1" o="8" l="16" el="16" c="13" ec="76" ex="false" fl="65536" doc="5" nid="0" />
+        <seqpnt vc="1" o="1E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="5" nid="0" />
+        <seqpnt vc="1" o="1E" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="5" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_greater_than_total_health" signature="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_greater_than_total_health" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="3" nid="0" />
+      </method>
+      <method name="should_kill_player" signature="should_kill_player() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="22" el="22" c="13" ec="49" ex="false" fl="65536" doc="3" nid="0" />
+        <seqpnt vc="1" o="12" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="3" nid="0" />
+        <seqpnt vc="1" o="12" l="23" el="23" c="9" ec="10" ex="false" fl="65536" doc="3" nid="0" />
+      </method>
+      <method name="should_take_player_health_to_zerp" signature="should_take_player_health_to_zerp() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="28" el="28" c="13" ec="54" ex="false" fl="65536" doc="3" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="3" nid="0" />
+        <seqpnt vc="1" o="13" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="3" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="3" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="16" c="13" ec="28" ex="false" fl="65536" doc="3" nid="0" />
+        <seqpnt vc="1" o="23" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="3" nid="0" />
+        <seqpnt vc="1" o="23" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="3" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_less_than_total_health" signature="CombatLibraryTest.CombatActions.RegularAttackActionTests.When_regular_attacking_for_less_than_total_health" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="2" nid="0" />
+      </method>
+      <method name="should_damage_player_by_attack_power" signature="should_damage_player_by_attack_power() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="22" el="22" c="13" ec="55" ex="false" fl="65536" doc="2" nid="0" />
+        <seqpnt vc="1" o="14" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="2" nid="0" />
+        <seqpnt vc="1" o="14" l="23" el="23" c="9" ec="10" ex="false" fl="65536" doc="2" nid="0" />
+      </method>
+      <method name="should_not_kill_player" signature="should_not_kill_player() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="28" el="28" c="13" ec="50" ex="false" fl="65536" doc="2" nid="0" />
+        <seqpnt vc="1" o="12" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="2" nid="0" />
+        <seqpnt vc="1" o="12" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="2" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="2" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="16" c="13" ec="28" ex="false" fl="65536" doc="2" nid="0" />
+        <seqpnt vc="1" o="20" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="2" nid="0" />
+        <seqpnt vc="1" o="20" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="2" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_setting_players" signature="CombatLibraryTest.CombatEncounters.CombatEncounterTests.When_setting_players" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+      </method>
+      <method name="should_be_the_same_players" signature="should_be_the_same_players() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="2" l="36" el="36" c="35" ec="43" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="2" o="10" l="36" el="36" c="21" ec="31" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="2" o="18" l="37" el="37" c="17" ec="75" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="2" o="2F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+        <seqpnt vc="3" o="2F" l="36" el="36" c="32" ec="34" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="3" o="38" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+        <seqpnt vc="1" o="4C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+        <seqpnt vc="1" o="4C" l="38" el="38" c="9" ec="10" ex="false" fl="65536" doc="10" nid="0" />
+      </method>
+      <method name="should_send_player_ready_for_action_events_for_each_player" signature="should_send_player_ready_for_action_events_for_each_player() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="43" el="43" c="13" ec="99" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+        <seqpnt vc="1" o="13" l="44" el="44" c="9" ec="10" ex="false" fl="65536" doc="10" nid="0" />
+      </method>
+      <method name="should_set_players_in_combat_encounter" signature="should_set_players_in_combat_encounter() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="30" el="30" c="13" ec="80" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="1" o="22" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+        <seqpnt vc="1" o="22" l="31" el="31" c="9" ec="10" ex="false" fl="65536" doc="10" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="17" el="17" c="13" ec="25" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="1" o="8" l="19" el="23" c="13" ec="30" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="1" o="31" l="24" el="24" c="13" ec="51" ex="false" fl="65536" doc="10" nid="0" />
+        <seqpnt vc="1" o="43" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="10" nid="0" />
+        <seqpnt vc="1" o="43" l="25" el="25" c="9" ec="10" ex="false" fl="65536" doc="10" nid="0" />
+      </method>
+    </class>
+    <class name="CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.When_setting_target_strategy" signature="CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.When_setting_target_strategy" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="9" nid="0" />
+      </method>
+      <method name="should_set_target_strategy" signature="should_set_target_strategy() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="23" el="23" c="13" ec="72" ex="false" fl="65536" doc="9" nid="0" />
+        <seqpnt vc="1" o="18" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="9" nid="0" />
+        <seqpnt vc="1" o="18" l="24" el="24" c="9" ec="10" ex="false" fl="65536" doc="9" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="14" el="14" c="13" ec="25" ex="false" fl="65536" doc="9" nid="0" />
+        <seqpnt vc="1" o="8" l="16" el="16" c="13" ec="58" ex="false" fl="65536" doc="9" nid="0" />
+        <seqpnt vc="1" o="13" l="17" el="17" c="13" ec="57" ex="false" fl="65536" doc="9" nid="0" />
+        <seqpnt vc="1" o="25" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="9" nid="0" />
+        <seqpnt vc="1" o="25" l="18" el="18" c="9" ec="10" ex="false" fl="65536" doc="9" nid="0" />
+      </method>
+    </class>
+  </module>
+  <module moduleId="29" name="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\Foundation.dll" assembly="Foundation" assemblyIdentity="Foundation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL" nid="0">
+    <class name="Foundation.Eventing.DefaultEventAggregator" signature="Foundation.Eventing.DefaultEventAggregator" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="15" nid="0">
+        <seqpnt vc="15" o="0" l="16" el="16" c="9" ec="40" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="15" o="8" l="18" el="18" c="13" ec="67" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="15" o="13" l="19" el="19" c="13" ec="75" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="15" o="1E" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="15" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+      </method>
+      <method name="&lt;Publish&gt;b__3" signature="&lt;Publish&gt;b__3(System.Action a) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="0" l="53" el="53" c="31" ec="41" ex="false" fl="65536" doc="39" nid="0" />
+      </method>
+      <method name="Publish" signature="Publish(System.String eventName) : void" excluded="false" instrumented="true" cc="3" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="48" el="48" c="13" ec="62" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="2" o="11" l="49" el="49" c="17" ec="24" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="1" o="13" l="51" el="53" c="13" ec="43" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="1" o="29" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="1" o="49" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="49" l="54" el="54" c="9" ec="10" ex="false" fl="65536" doc="39" nid="0" />
+      </method>
+      <method name="Publish" signature="Publish&lt;T&gt;(T eventToPublish) : void" excluded="false" instrumented="true" cc="2" vc="6" nid="0">
+        <seqpnt vc="6" o="E" l="32" el="32" c="13" ec="41" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="6" o="19" l="34" el="34" c="13" ec="56" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="6" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="5" o="29" l="35" el="35" c="17" ec="24" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="1" o="2B" l="37" el="39" c="13" ec="57" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="1" o="4E" l="40" el="40" c="9" ec="10" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="1" o="4F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+      </method>
+      <method name="Subscribe" signature="Subscribe(System.String eventName,System.Action subscriptionAction) : void" excluded="false" instrumented="true" cc="2" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="78" el="78" c="13" ec="62" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="11" l="79" el="79" c="17" ec="73" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="23" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="23" l="81" el="81" c="13" ec="69" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="36" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="36" l="82" el="82" c="9" ec="10" ex="false" fl="65536" doc="39" nid="0" />
+      </method>
+      <method name="Subscribe" signature="Subscribe&lt;T&gt;(System.Action&lt;T&gt; subscriptionAction) : void" excluded="false" instrumented="true" cc="2" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="63" el="63" c="13" ec="41" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="C" l="65" el="65" c="13" ec="56" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="1A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="1C" l="66" el="66" c="17" ec="67" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="2E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="2E" l="68" el="68" c="13" ec="63" ex="false" fl="65536" doc="39" nid="0" />
+        <seqpnt vc="3" o="41" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+        <seqpnt vc="3" o="41" l="69" el="69" c="9" ec="10" ex="false" fl="65536" doc="39" nid="0" />
+      </method>
+    </class>
+    <class name="Foundation.Eventing.DefaultEventAggregator+&lt;&gt;c__DisplayClass1`1" signature="Foundation.Eventing.DefaultEventAggregator+&lt;&gt;c__DisplayClass1`1" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="39" nid="0" />
+      </method>
+      <method name="&lt;Publish&gt;b__0" signature="&lt;Publish&gt;b__0(System.Action&lt;T&gt; a) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="0" l="39" el="39" c="31" ec="55" ex="false" fl="65536" doc="39" nid="0" />
+      </method>
+    </class>
+    <class name="Foundation.Messaging.DefaultMessageBroker" signature="Foundation.Messaging.DefaultMessageBroker" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="10" nid="0">
+        <seqpnt vc="10" o="0" l="16" el="16" c="9" ec="38" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="10" o="8" l="18" el="18" c="13" ec="67" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="10" o="13" l="19" el="19" c="13" ec="75" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="10" o="1E" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="10" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+      </method>
+      <method name="&lt;Send&gt;b__3" signature="&lt;Send&gt;b__3(System.Action a) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="0" l="81" el="81" c="31" ec="41" ex="false" fl="65536" doc="42" nid="0" />
+      </method>
+      <method name="Register" signature="Register(System.String messageName,System.Action consumptionAction) : void" excluded="false" instrumented="true" cc="2" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="32" el="32" c="13" ec="64" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="11" l="33" el="33" c="17" ec="75" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="23" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="23" l="35" el="35" c="13" ec="70" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="36" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="36" l="36" el="36" c="9" ec="10" ex="false" fl="65536" doc="42" nid="0" />
+      </method>
+      <method name="Register" signature="Register&lt;T&gt;(System.Action&lt;T&gt; consumptionAction) : void" excluded="false" instrumented="true" cc="2" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="45" el="45" c="13" ec="41" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="C" l="47" el="47" c="13" ec="56" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="1A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="1C" l="48" el="48" c="17" ec="67" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="2E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="2E" l="50" el="50" c="13" ec="62" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="41" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="41" l="51" el="51" c="9" ec="10" ex="false" fl="65536" doc="42" nid="0" />
+      </method>
+      <method name="Send" signature="Send(System.String messageName) : void" excluded="false" instrumented="true" cc="3" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="76" el="76" c="13" ec="64" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="2" o="11" l="77" el="77" c="17" ec="24" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="1" o="13" l="79" el="81" c="13" ec="43" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="1" o="29" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="1" o="49" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="3" o="49" l="82" el="82" c="9" ec="10" ex="false" fl="65536" doc="42" nid="0" />
+      </method>
+      <method name="Send" signature="Send&lt;T&gt;(T message) : void" excluded="false" instrumented="true" cc="2" vc="3" nid="0">
+        <seqpnt vc="3" o="E" l="60" el="60" c="13" ec="43" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="19" l="62" el="62" c="13" ec="58" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="3" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+        <seqpnt vc="2" o="29" l="63" el="63" c="17" ec="24" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="1" o="2B" l="65" el="67" c="13" ec="50" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="1" o="4E" l="68" el="68" c="9" ec="10" ex="false" fl="65536" doc="42" nid="0" />
+        <seqpnt vc="1" o="4F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+      </method>
+    </class>
+    <class name="Foundation.Messaging.DefaultMessageBroker+&lt;&gt;c__DisplayClass1`1" signature="Foundation.Messaging.DefaultMessageBroker+&lt;&gt;c__DisplayClass1`1" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="42" nid="0" />
+      </method>
+      <method name="&lt;Send&gt;b__0" signature="&lt;Send&gt;b__0(System.Action&lt;T&gt; a) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="0" l="67" el="67" c="31" ec="48" ex="false" fl="65536" doc="42" nid="0" />
+      </method>
+    </class>
+    <class name="Foundation.Extensions.EnumerableExtensions" signature="Foundation.Extensions.EnumerableExtensions" excluded="false" nid="0">
+      <method name="ForEach" signature="ForEach&lt;T&gt;(System.Collections.Generic.IEnumerable&lt;T&gt; enumerable,System.Action&lt;T&gt; action) : void [static]" excluded="false" instrumented="true" cc="3" vc="5" nid="0">
+        <seqpnt vc="5" o="2" l="19" el="19" c="34" ec="44" ex="false" fl="65536" doc="40" nid="0" />
+        <seqpnt vc="7" o="B" l="19" el="19" c="22" ec="30" ex="false" fl="65536" doc="40" nid="0" />
+        <seqpnt vc="7" o="12" l="20" el="20" c="17" ec="37" ex="false" fl="65536" doc="40" nid="0" />
+        <seqpnt vc="7" o="1A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="40" nid="0" />
+        <seqpnt vc="12" o="1A" l="19" el="19" c="31" ec="33" ex="false" fl="65536" doc="40" nid="0" />
+        <seqpnt vc="12" o="22" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="40" nid="0" />
+        <seqpnt vc="5" o="2C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="40" nid="0" />
+        <seqpnt vc="5" o="37" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="40" nid="0" />
+        <seqpnt vc="5" o="37" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="40" nid="0" />
+      </method>
+    </class>
+    <class name="Foundation.Eventing.EventAggregator" signature="Foundation.Eventing.EventAggregator" excluded="false" nid="0">
+      <method name=".cctor" signature=".cctor() : void [static]" excluded="false" instrumented="true" cc="1" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="15" el="15" c="13" ec="61" ex="false" fl="65536" doc="41" nid="0" />
+        <seqpnt vc="2" o="B" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+        <seqpnt vc="2" o="B" l="16" el="16" c="9" ec="10" ex="false" fl="65536" doc="41" nid="0" />
+      </method>
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="false" cc="1" vc="0" nid="0">
+        <seqpnt vc="0" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+      </method>
+      <method name="Publish" signature="Publish(System.String eventName) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="36" el="36" c="13" ec="49" ex="false" fl="65536" doc="41" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+        <seqpnt vc="1" o="D" l="37" el="37" c="9" ec="10" ex="false" fl="65536" doc="41" nid="0" />
+      </method>
+      <method name="Publish" signature="Publish&lt;T&gt;(T eventToPublish) : void [static]" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="1" l="27" el="27" c="13" ec="54" ex="false" fl="65536" doc="41" nid="0" />
+        <seqpnt vc="4" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+        <seqpnt vc="4" o="D" l="28" el="28" c="9" ec="10" ex="false" fl="65536" doc="41" nid="0" />
+      </method>
+      <method name="SetAggregator" signature="SetAggregator(Foundation.Eventing.IEventAggregator eventAggregator) : void [static]" excluded="false" instrumented="true" cc="1" vc="7" nid="0">
+        <seqpnt vc="7" o="1" l="45" el="45" c="13" ec="48" ex="false" fl="65536" doc="41" nid="0" />
+        <seqpnt vc="7" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+        <seqpnt vc="7" o="7" l="46" el="46" c="9" ec="10" ex="false" fl="65536" doc="41" nid="0" />
+      </method>
+      <method name="Subscribe" signature="Subscribe(System.String eventName,System.Action subscriptionAction) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="65" el="65" c="13" ec="71" ex="false" fl="65536" doc="41" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+        <seqpnt vc="1" o="E" l="66" el="66" c="9" ec="10" ex="false" fl="65536" doc="41" nid="0" />
+      </method>
+      <method name="Subscribe" signature="Subscribe&lt;T&gt;(System.Action&lt;T&gt; subscriptionAction) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="55" el="55" c="13" ec="60" ex="false" fl="65536" doc="41" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="41" nid="0" />
+        <seqpnt vc="1" o="D" l="56" el="56" c="9" ec="10" ex="false" fl="65536" doc="41" nid="0" />
+      </method>
+    </class>
+    <class name="Foundation.Messaging.MessageBroker" signature="Foundation.Messaging.MessageBroker" excluded="false" nid="0">
+      <method name="Register" signature="Register(System.String messageName,System.Action consumptionAction) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="29" el="29" c="13" ec="69" ex="false" fl="65536" doc="43" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="43" nid="0" />
+        <seqpnt vc="1" o="E" l="30" el="30" c="9" ec="10" ex="false" fl="65536" doc="43" nid="0" />
+      </method>
+      <method name="Register" signature="Register&lt;T&gt;(System.Action&lt;T&gt; consumptionAction) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="19" el="19" c="13" ec="56" ex="false" fl="65536" doc="43" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="43" nid="0" />
+        <seqpnt vc="1" o="D" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="43" nid="0" />
+      </method>
+      <method name="Send" signature="Send(System.String messageName) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="48" el="48" c="13" ec="46" ex="false" fl="65536" doc="43" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="43" nid="0" />
+        <seqpnt vc="1" o="D" l="49" el="49" c="9" ec="10" ex="false" fl="65536" doc="43" nid="0" />
+      </method>
+      <method name="Send" signature="Send&lt;T&gt;(T message) : void [static]" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="39" el="39" c="13" ec="42" ex="false" fl="65536" doc="43" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="43" nid="0" />
+        <seqpnt vc="1" o="D" l="40" el="40" c="9" ec="10" ex="false" fl="65536" doc="43" nid="0" />
+      </method>
+      <method name="SetMessageBroker" signature="SetMessageBroker(Foundation.Messaging.IMessageBroker messageBroker) : void [static]" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="1" l="57" el="57" c="13" ec="44" ex="false" fl="65536" doc="43" nid="0" />
+        <seqpnt vc="4" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="43" nid="0" />
+        <seqpnt vc="4" o="7" l="58" el="58" c="9" ec="10" ex="false" fl="65536" doc="43" nid="0" />
+      </method>
+    </class>
+  </module>
+  <module moduleId="20" name="C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\FoundationTest.dll" assembly="FoundationTest" assemblyIdentity="FoundationTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, processorArchitecture=MSIL" nid="0">
+    <class name="FoundationTest.ContextSpecifications.ContextSpecification" signature="FoundationTest.ContextSpecifications.ContextSpecification" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="27" nid="0">
+        <seqpnt vc="27" o="0" l="11" el="11" c="9" ec="38" ex="false" fl="65536" doc="11" nid="0" />
+        <seqpnt vc="27" o="8" l="13" el="13" c="13" ec="21" ex="false" fl="65536" doc="11" nid="0" />
+        <seqpnt vc="27" o="F" l="14" el="14" c="13" ec="20" ex="false" fl="65536" doc="11" nid="0" />
+        <seqpnt vc="27" o="16" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="11" nid="0" />
+        <seqpnt vc="27" o="17" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="11" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="27" nid="0">
+        <seqpnt vc="27" o="1" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="11" nid="0" />
+        <seqpnt vc="27" o="1" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="11" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="27" nid="0">
+        <seqpnt vc="27" o="1" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="11" nid="0" />
+        <seqpnt vc="27" o="1" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="11" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Mocks.MockEvent" signature="FoundationTest.Mocks.MockEvent" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="0" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Mocks.MockEventAggregator" signature="FoundationTest.Mocks.MockEventAggregator" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="7" nid="0">
+        <seqpnt vc="7" o="0" l="15" el="15" c="9" ec="37" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="7" o="8" l="17" el="17" c="13" ec="62" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="7" o="14" l="18" el="18" c="13" ec="63" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="7" o="20" l="19" el="19" c="13" ec="61" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="7" o="2B" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="7" o="2C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+      </method>
+      <method name="get_PublicationCount" signature="get_PublicationCount() : System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt;" excluded="false" instrumented="true" cc="1" vc="14" nid="0">
+        <seqpnt vc="14" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+      </method>
+      <method name="get_SubscriptionCount" signature="get_SubscriptionCount() : System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt;" excluded="false" instrumented="true" cc="1" vc="8" nid="0">
+        <seqpnt vc="8" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+      </method>
+      <method name="GetPublicationCount" signature="GetPublicationCount&lt;T&gt;() : System.Int32" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="44" el="46" c="13" ec="28" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="1D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="1" o="23" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="1" o="26" l="47" el="47" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+      </method>
+      <method name="Publish" signature="Publish(System.String eventName) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="66" el="66" c="13" ec="42" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="9" l="67" el="67" c="13" ec="49" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="16" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="1" o="16" l="68" el="68" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+      </method>
+      <method name="Publish" signature="Publish&lt;T&gt;(T eventToPublish) : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="56" el="56" c="13" ec="48" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="3" o="17" l="57" el="57" c="13" ec="54" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="3" o="24" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="3" o="24" l="58" el="58" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+      </method>
+      <method name="RecordPublication" signature="RecordPublication(System.String eventName) : void" excluded="false" instrumented="true" cc="2" vc="4" nid="0">
+        <seqpnt vc="4" o="1" l="76" el="76" c="13" ec="58" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="4" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="3" o="11" l="77" el="77" c="17" ec="52" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="3" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="4" o="1F" l="79" el="79" c="13" ec="43" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="4" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="4" o="39" l="80" el="80" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+      </method>
+      <method name="RecordSubscription" signature="RecordSubscription(System.String eventName) : void" excluded="false" instrumented="true" cc="2" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="88" el="88" c="13" ec="59" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="2" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="2" o="11" l="89" el="89" c="17" ec="53" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="2" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="2" o="1F" l="91" el="91" c="13" ec="44" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="2" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="2" o="39" l="92" el="92" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+      </method>
+      <method name="set_PublicationCount" signature="set_PublicationCount(System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt; value) : void" excluded="false" instrumented="true" cc="1" vc="7" nid="0">
+        <seqpnt vc="7" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+      </method>
+      <method name="set_SubscriptionCount" signature="set_SubscriptionCount(System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt; value) : void" excluded="false" instrumented="true" cc="1" vc="7" nid="0">
+        <seqpnt vc="7" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+      </method>
+      <method name="Subscribe" signature="Subscribe(System.String eventName,System.Action subscriptionAction) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="112" el="112" c="13" ec="43" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="9" l="113" el="113" c="13" ec="71" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="17" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="1" o="17" l="114" el="114" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+      </method>
+      <method name="Subscribe" signature="Subscribe&lt;T&gt;(System.Action&lt;T&gt; subscriptionAction) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="101" el="101" c="13" ec="49" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="17" l="102" el="102" c="13" ec="60" ex="false" fl="65536" doc="13" nid="0" />
+        <seqpnt vc="1" o="24" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="13" nid="0" />
+        <seqpnt vc="1" o="24" l="103" el="103" c="9" ec="10" ex="false" fl="65536" doc="13" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Mocks.MockMessage" signature="FoundationTest.Mocks.MockMessage" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="0" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Mocks.MockMessageBroker" signature="FoundationTest.Mocks.MockMessageBroker" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="0" l="12" el="12" c="9" ec="35" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="4" o="8" l="14" el="14" c="13" ec="55" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="4" o="14" l="15" el="15" c="13" ec="63" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="4" o="20" l="16" el="16" c="13" ec="57" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="4" o="2B" l="17" el="17" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="4" o="2C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+      </method>
+      <method name="get_RegistrationCount" signature="get_RegistrationCount() : System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt;" excluded="false" instrumented="true" cc="1" vc="8" nid="0">
+        <seqpnt vc="8" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+      </method>
+      <method name="get_SentCount" signature="get_SentCount() : System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt;" excluded="false" instrumented="true" cc="1" vc="8" nid="0">
+        <seqpnt vc="8" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+      </method>
+      <method name="RecordMessageSent" signature="RecordMessageSent(System.String eventName) : void" excluded="false" instrumented="true" cc="2" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="39" el="39" c="13" ec="51" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="2" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="2" o="11" l="40" el="40" c="17" ec="45" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="2" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="2" o="1F" l="42" el="42" c="13" ec="36" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="2" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="2" o="39" l="43" el="43" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+      </method>
+      <method name="RecordRegistration" signature="RecordRegistration(System.String eventName) : void" excluded="false" instrumented="true" cc="2" vc="2" nid="0">
+        <seqpnt vc="2" o="1" l="51" el="51" c="13" ec="59" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="2" o="F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="2" o="11" l="52" el="52" c="17" ec="53" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="2" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="2" o="1F" l="54" el="54" c="13" ec="44" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="2" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="2" o="39" l="55" el="55" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+      </method>
+      <method name="Register" signature="Register(System.String messageName,System.Action consumptionAction) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="64" el="64" c="13" ec="45" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="9" l="65" el="65" c="13" ec="69" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="17" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="1" o="17" l="66" el="66" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+      </method>
+      <method name="Register" signature="Register&lt;T&gt;(System.Action&lt;T&gt; consumptionAction) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="75" el="75" c="13" ec="49" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="17" l="76" el="76" c="13" ec="56" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="24" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="1" o="24" l="77" el="77" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+      </method>
+      <method name="Send" signature="Send(System.String messageName) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="96" el="96" c="13" ec="44" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="9" l="97" el="97" c="13" ec="46" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="16" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="1" o="16" l="98" el="98" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+      </method>
+      <method name="Send" signature="Send&lt;T&gt;(T message) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="86" el="86" c="13" ec="48" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="17" l="87" el="87" c="13" ec="42" ex="false" fl="65536" doc="33" nid="0" />
+        <seqpnt vc="1" o="24" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+        <seqpnt vc="1" o="24" l="88" el="88" c="9" ec="10" ex="false" fl="65536" doc="33" nid="0" />
+      </method>
+      <method name="set_RegistrationCount" signature="set_RegistrationCount(System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt; value) : void" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+      </method>
+      <method name="set_SentCount" signature="set_SentCount(System.Collections.Generic.Dictionary&lt;System.String,System.Int32&gt; value) : void" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="33" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.Contexts.NewDefaultEventAggregator" signature="FoundationTest.Eventing.Contexts.NewDefaultEventAggregator" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="15" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="1" l="18" el="18" c="13" ec="26" ex="false" fl="65536" doc="15" nid="0" />
+        <seqpnt vc="6" o="8" l="20" el="20" c="13" ec="61" ex="false" fl="65536" doc="15" nid="0" />
+        <seqpnt vc="6" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="15" nid="0" />
+        <seqpnt vc="6" o="13" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="15" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.Contexts.NewDefaultMessageBroker" signature="FoundationTest.Messaging.Contexts.NewDefaultMessageBroker" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="26" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="1" l="12" el="12" c="13" ec="26" ex="false" fl="65536" doc="26" nid="0" />
+        <seqpnt vc="6" o="8" l="14" el="14" c="13" ec="57" ex="false" fl="65536" doc="26" nid="0" />
+        <seqpnt vc="6" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="26" nid="0" />
+        <seqpnt vc="6" o="13" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="26" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Extensions.EnumerableExtensionsTests.When_for_eaching_an_enumeration" signature="FoundationTest.Extensions.EnumerableExtensionsTests.When_for_eaching_an_enumeration" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__1" signature="&lt;When&gt;b__1(Mock i) : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="1" l="33" el="33" c="36" ec="44" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="10" l="34" el="34" c="36" ec="45" ex="false" fl="65536" doc="14" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="26" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="24" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="1" o="F" l="19" el="24" c="13" ec="28" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="1" o="40" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="1" o="40" l="25" el="25" c="9" ec="10" ex="false" fl="65536" doc="14" nid="0" />
+      </method>
+      <method name="should_execute_action_for_every_item" signature="should_execute_action_for_every_item() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="41" el="41" c="13" ec="40" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="1" o="E" l="42" el="42" c="9" ec="10" ex="false" fl="65536" doc="14" nid="0" />
+      </method>
+      <method name="should_execute_action_on_every_item" signature="should_execute_action_on_every_item() : void" excluded="false" instrumented="true" cc="3" vc="1" nid="0">
+        <seqpnt vc="1" o="2" l="47" el="47" c="34" ec="40" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="10" l="47" el="47" c="22" ec="30" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="18" l="49" el="49" c="17" ec="46" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="26" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="4" o="26" l="47" el="47" c="31" ec="33" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="4" o="2E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="1" o="38" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="1" o="43" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="1" o="43" l="51" el="51" c="9" ec="10" ex="false" fl="65536" doc="14" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="29" el="29" c="13" ec="25" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="1" o="8" l="31" el="35" c="13" ec="35" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="1" o="20" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+        <seqpnt vc="1" o="20" l="36" el="36" c="9" ec="10" ex="false" fl="65536" doc="14" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Extensions.EnumerableExtensionsTests.When_for_eaching_an_enumeration+Mock" signature="FoundationTest.Extensions.EnumerableExtensionsTests.When_for_eaching_an_enumeration+Mock" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="3" nid="0">
+        <seqpnt vc="3" o="0" l="55" el="55" c="13" ec="26" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="8" l="57" el="57" c="17" ec="25" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="10" l="58" el="58" c="13" ec="14" ex="false" fl="65536" doc="14" nid="0" />
+        <seqpnt vc="3" o="11" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+      </method>
+      <method name="get_Num" signature="get_Num() : System.Int32" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="A" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+      </method>
+      <method name="set_Num" signature="set_Num(System.Int32 value) : void" excluded="false" instrumented="true" cc="1" vc="6" nid="0">
+        <seqpnt vc="6" o="7" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="14" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.EventAggregatorTests.When_publishing_an_event" signature="FoundationTest.Eventing.EventAggregatorTests.When_publishing_an_event" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="22" nid="0" />
+      </method>
+      <method name="should_publish_event" signature="should_publish_event() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="21" el="21" c="13" ec="92" ex="false" fl="65536" doc="22" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="22" nid="0" />
+        <seqpnt vc="1" o="27" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="22" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="13" el="13" c="13" ec="25" ex="false" fl="65536" doc="22" nid="0" />
+        <seqpnt vc="1" o="8" l="15" el="15" c="13" ec="54" ex="false" fl="65536" doc="22" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="22" nid="0" />
+        <seqpnt vc="1" o="13" l="16" el="16" c="9" ec="10" ex="false" fl="65536" doc="22" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.EventAggregatorTests.When_publishing_an_event_by_name" signature="FoundationTest.Eventing.EventAggregatorTests.When_publishing_an_event_by_name" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="23" nid="0" />
+      </method>
+      <method name="should_publish_event" signature="should_publish_event() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="21" el="21" c="13" ec="83" ex="false" fl="65536" doc="23" nid="0" />
+        <seqpnt vc="1" o="1D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="23" nid="0" />
+        <seqpnt vc="1" o="1D" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="23" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="13" el="13" c="13" ec="25" ex="false" fl="65536" doc="23" nid="0" />
+        <seqpnt vc="1" o="8" l="15" el="15" c="13" ec="53" ex="false" fl="65536" doc="23" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="23" nid="0" />
+        <seqpnt vc="1" o="13" l="16" el="16" c="9" ec="10" ex="false" fl="65536" doc="23" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_by_name_with_a_single_subscription" signature="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_by_name_with_a_single_subscription" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="21" nid="0" />
+      </method>
+      <method name="&lt;Given&gt;b__0" signature="&lt;Given&gt;b__0() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="19" el="19" c="31" ec="54" ex="false" fl="65536" doc="21" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="26" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="37" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="F" l="19" el="19" c="13" ec="57" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="21" l="21" el="21" c="13" ec="65" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="38" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="21" nid="0" />
+        <seqpnt vc="1" o="38" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="21" nid="0" />
+      </method>
+      <method name="should_execute_subscription_action" signature="should_execute_subscription_action() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="34" el="34" c="13" ec="44" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="21" nid="0" />
+        <seqpnt vc="1" o="D" l="35" el="35" c="9" ec="10" ex="false" fl="65536" doc="21" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="25" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="8" l="28" el="28" c="13" ec="54" ex="false" fl="65536" doc="21" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="21" nid="0" />
+        <seqpnt vc="1" o="19" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="21" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_by_name_with_no_subscriptions" signature="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_by_name_with_no_subscriptions" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="20" nid="0" />
+      </method>
+      <method name="should_not_throw_an_exception" signature="should_not_throw_an_exception() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="20" el="20" c="13" ec="33" ex="false" fl="65536" doc="20" nid="0" />
+        <seqpnt vc="1" o="8" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="20" nid="0" />
+        <seqpnt vc="1" o="8" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="20" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="20" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="14" c="13" ec="54" ex="false" fl="65536" doc="20" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="20" nid="0" />
+        <seqpnt vc="1" o="19" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="20" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_with_a_single_subscription" signature="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_with_a_single_subscription" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="19" nid="0" />
+      </method>
+      <method name="&lt;Given&gt;b__0" signature="&lt;Given&gt;b__0(FoundationTest.Mocks.MockEvent m) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="19" el="19" c="32" ec="55" ex="false" fl="65536" doc="19" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="26" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="37" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="F" l="19" el="19" c="13" ec="58" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="21" l="21" el="21" c="13" ec="49" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="33" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="19" nid="0" />
+        <seqpnt vc="1" o="33" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="19" nid="0" />
+      </method>
+      <method name="should_execute_subscription_action" signature="should_execute_subscription_action() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="34" el="34" c="13" ec="44" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="19" nid="0" />
+        <seqpnt vc="1" o="D" l="35" el="35" c="9" ec="10" ex="false" fl="65536" doc="19" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="25" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="8" l="28" el="28" c="13" ec="55" ex="false" fl="65536" doc="19" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="19" nid="0" />
+        <seqpnt vc="1" o="19" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="19" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_with_no_subscriptions" signature="FoundationTest.Eventing.DefaultEventAggregatorTests.When_publishing_an_event_with_no_subscriptions" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="17" nid="0" />
+      </method>
+      <method name="should_not_throw_an_exception" signature="should_not_throw_an_exception() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="20" el="20" c="13" ec="33" ex="false" fl="65536" doc="17" nid="0" />
+        <seqpnt vc="1" o="8" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="17" nid="0" />
+        <seqpnt vc="1" o="8" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="17" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="17" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="14" c="13" ec="55" ex="false" fl="65536" doc="17" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="17" nid="0" />
+        <seqpnt vc="1" o="19" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="17" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message" signature="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="27" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0(FoundationTest.Mocks.MockMessage m) : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_have_only_one_registration" signature="should_have_only_one_registration() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="25" el="25" c="13" ec="91" ex="false" fl="65536" doc="27" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="27" nid="0" />
+        <seqpnt vc="1" o="27" l="26" el="26" c="9" ec="10" ex="false" fl="65536" doc="27" nid="0" />
+      </method>
+      <method name="should_register_action_for_message" signature="should_register_action_for_message() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="31" el="31" c="13" ec="98" ex="false" fl="65536" doc="27" nid="0" />
+        <seqpnt vc="1" o="2C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="27" nid="0" />
+        <seqpnt vc="1" o="2C" l="32" el="32" c="9" ec="10" ex="false" fl="65536" doc="27" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="15" el="15" c="13" ec="25" ex="false" fl="65536" doc="27" nid="0" />
+        <seqpnt vc="1" o="8" l="17" el="17" c="13" ec="34" ex="false" fl="65536" doc="27" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="27" nid="0" />
+        <seqpnt vc="1" o="2D" l="19" el="19" c="13" ec="46" ex="false" fl="65536" doc="27" nid="0" />
+        <seqpnt vc="1" o="3F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="27" nid="0" />
+        <seqpnt vc="1" o="3F" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="27" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.MessageBrokerTests.When_registering_for_a_message" signature="FoundationTest.Messaging.MessageBrokerTests.When_registering_for_a_message" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="37" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0(FoundationTest.Mocks.MockMessage m) : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_have_only_one_registration" signature="should_have_only_one_registration() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="93" ex="false" fl="65536" doc="37" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="37" nid="0" />
+        <seqpnt vc="1" o="27" l="27" el="27" c="9" ec="10" ex="false" fl="65536" doc="37" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="25" ex="false" fl="65536" doc="37" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="34" ex="false" fl="65536" doc="37" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="37" nid="0" />
+        <seqpnt vc="1" o="2D" l="20" el="20" c="13" ec="45" ex="false" fl="65536" doc="37" nid="0" />
+        <seqpnt vc="1" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="37" nid="0" />
+        <seqpnt vc="1" o="39" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="37" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message_by_name" signature="FoundationTest.Messaging.DefaultMessageBrokerTests.When_registering_for_a_message_by_name" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="28" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0() : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_have_only_one_registration" signature="should_have_only_one_registration() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="25" el="25" c="13" ec="93" ex="false" fl="65536" doc="28" nid="0" />
+        <seqpnt vc="1" o="22" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="28" nid="0" />
+        <seqpnt vc="1" o="22" l="26" el="26" c="9" ec="10" ex="false" fl="65536" doc="28" nid="0" />
+      </method>
+      <method name="should_register_action_for_message" signature="should_register_action_for_message() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="31" el="31" c="13" ec="100" ex="false" fl="65536" doc="28" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="28" nid="0" />
+        <seqpnt vc="1" o="27" l="32" el="32" c="9" ec="10" ex="false" fl="65536" doc="28" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="15" el="15" c="13" ec="25" ex="false" fl="65536" doc="28" nid="0" />
+        <seqpnt vc="1" o="8" l="17" el="17" c="13" ec="33" ex="false" fl="65536" doc="28" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="28" nid="0" />
+        <seqpnt vc="1" o="2D" l="19" el="19" c="13" ec="64" ex="false" fl="65536" doc="28" nid="0" />
+        <seqpnt vc="1" o="44" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="28" nid="0" />
+        <seqpnt vc="1" o="44" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="28" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.MessageBrokerTests.When_registering_for_a_message_by_name" signature="FoundationTest.Messaging.MessageBrokerTests.When_registering_for_a_message_by_name" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="38" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0() : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_have_only_one_registration" signature="should_have_only_one_registration() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="84" ex="false" fl="65536" doc="38" nid="0" />
+        <seqpnt vc="1" o="1D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="38" nid="0" />
+        <seqpnt vc="1" o="1D" l="27" el="27" c="9" ec="10" ex="false" fl="65536" doc="38" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="25" ex="false" fl="65536" doc="38" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="33" ex="false" fl="65536" doc="38" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="38" nid="0" />
+        <seqpnt vc="1" o="2D" l="20" el="20" c="13" ec="63" ex="false" fl="65536" doc="38" nid="0" />
+        <seqpnt vc="1" o="3E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="38" nid="0" />
+        <seqpnt vc="1" o="3E" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="38" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.MessageBrokerTests.When_sending_a_message" signature="FoundationTest.Messaging.MessageBrokerTests.When_sending_a_message" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="35" nid="0" />
+      </method>
+      <method name="should_send_message" signature="should_send_message() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="21" el="21" c="13" ec="85" ex="false" fl="65536" doc="35" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="35" nid="0" />
+        <seqpnt vc="1" o="27" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="35" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="13" el="13" c="13" ec="25" ex="false" fl="65536" doc="35" nid="0" />
+        <seqpnt vc="1" o="8" l="15" el="15" c="13" ec="51" ex="false" fl="65536" doc="35" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="35" nid="0" />
+        <seqpnt vc="1" o="13" l="16" el="16" c="9" ec="10" ex="false" fl="65536" doc="35" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.MessageBrokerTests.When_sending_a_message_by_name" signature="FoundationTest.Messaging.MessageBrokerTests.When_sending_a_message_by_name" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="36" nid="0" />
+      </method>
+      <method name="should_send_message" signature="should_send_message() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="21" el="21" c="13" ec="76" ex="false" fl="65536" doc="36" nid="0" />
+        <seqpnt vc="1" o="1D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="36" nid="0" />
+        <seqpnt vc="1" o="1D" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="36" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="13" el="13" c="13" ec="25" ex="false" fl="65536" doc="36" nid="0" />
+        <seqpnt vc="1" o="8" l="15" el="15" c="13" ec="50" ex="false" fl="65536" doc="36" nid="0" />
+        <seqpnt vc="1" o="13" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="36" nid="0" />
+        <seqpnt vc="1" o="13" l="16" el="16" c="9" ec="10" ex="false" fl="65536" doc="36" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_by_name_with_a_single_registration" signature="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_by_name_with_a_single_registration" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="32" nid="0" />
+      </method>
+      <method name="&lt;Given&gt;b__0" signature="&lt;Given&gt;b__0() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="19" el="19" c="31" ec="54" ex="false" fl="65536" doc="32" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="26" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="37" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="F" l="19" el="19" c="13" ec="57" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="21" l="21" el="21" c="13" ec="64" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="38" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="32" nid="0" />
+        <seqpnt vc="1" o="38" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="32" nid="0" />
+      </method>
+      <method name="should_execute_action" signature="should_execute_action() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="34" el="34" c="13" ec="44" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="32" nid="0" />
+        <seqpnt vc="1" o="D" l="35" el="35" c="9" ec="10" ex="false" fl="65536" doc="32" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="25" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="8" l="28" el="28" c="13" ec="51" ex="false" fl="65536" doc="32" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="32" nid="0" />
+        <seqpnt vc="1" o="19" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="32" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_by_name_with_no_subscriptions" signature="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_by_name_with_no_subscriptions" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="30" nid="0" />
+      </method>
+      <method name="should_not_throw_an_exception" signature="should_not_throw_an_exception() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="20" el="20" c="13" ec="33" ex="false" fl="65536" doc="30" nid="0" />
+        <seqpnt vc="1" o="8" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="30" nid="0" />
+        <seqpnt vc="1" o="8" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="30" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="30" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="14" c="13" ec="51" ex="false" fl="65536" doc="30" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="30" nid="0" />
+        <seqpnt vc="1" o="19" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="30" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_with_a_single_registration" signature="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_with_a_single_registration" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="29" nid="0" />
+      </method>
+      <method name="&lt;Given&gt;b__0" signature="&lt;Given&gt;b__0(FoundationTest.Mocks.MockMessage m) : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="19" el="19" c="32" ec="55" ex="false" fl="65536" doc="29" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="26" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="37" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="F" l="19" el="19" c="13" ec="58" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="21" l="21" el="21" c="13" ec="46" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="33" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="29" nid="0" />
+        <seqpnt vc="1" o="33" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="29" nid="0" />
+      </method>
+      <method name="should_execute_action" signature="should_execute_action() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="34" el="34" c="13" ec="44" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="29" nid="0" />
+        <seqpnt vc="1" o="D" l="35" el="35" c="9" ec="10" ex="false" fl="65536" doc="29" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="25" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="8" l="28" el="28" c="13" ec="52" ex="false" fl="65536" doc="29" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="29" nid="0" />
+        <seqpnt vc="1" o="19" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="29" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_with_no_registrations" signature="FoundationTest.Messaging.DefaultMessageBrokerTests.When_sending_a_message_with_no_registrations" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="31" nid="0" />
+      </method>
+      <method name="should_not_throw_an_exception" signature="should_not_throw_an_exception() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="20" el="20" c="13" ec="33" ex="false" fl="65536" doc="31" nid="0" />
+        <seqpnt vc="1" o="8" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="31" nid="0" />
+        <seqpnt vc="1" o="8" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="31" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="12" el="12" c="13" ec="25" ex="false" fl="65536" doc="31" nid="0" />
+        <seqpnt vc="1" o="8" l="14" el="14" c="13" ec="52" ex="false" fl="65536" doc="31" nid="0" />
+        <seqpnt vc="1" o="19" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="31" nid="0" />
+        <seqpnt vc="1" o="19" l="15" el="15" c="9" ec="10" ex="false" fl="65536" doc="31" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event" signature="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="16" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0(FoundationTest.Mocks.MockEvent m) : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_add_action_to_subscription_list" signature="should_add_action_to_subscription_list() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="28" el="28" c="13" ec="98" ex="false" fl="65536" doc="16" nid="0" />
+        <seqpnt vc="1" o="2C" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="16" nid="0" />
+        <seqpnt vc="1" o="2C" l="29" el="29" c="9" ec="10" ex="false" fl="65536" doc="16" nid="0" />
+      </method>
+      <method name="should_have_only_one_subscription" signature="should_have_only_one_subscription() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="34" el="34" c="13" ec="91" ex="false" fl="65536" doc="16" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="16" nid="0" />
+        <seqpnt vc="1" o="27" l="35" el="35" c="9" ec="10" ex="false" fl="65536" doc="16" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="18" el="18" c="13" ec="25" ex="false" fl="65536" doc="16" nid="0" />
+        <seqpnt vc="1" o="8" l="20" el="20" c="13" ec="34" ex="false" fl="65536" doc="16" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="16" nid="0" />
+        <seqpnt vc="1" o="2D" l="22" el="22" c="13" ec="49" ex="false" fl="65536" doc="16" nid="0" />
+        <seqpnt vc="1" o="3F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="16" nid="0" />
+        <seqpnt vc="1" o="3F" l="23" el="23" c="9" ec="10" ex="false" fl="65536" doc="16" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.EventAggregatorTests.When_subscribing_to_an_event" signature="FoundationTest.Eventing.EventAggregatorTests.When_subscribing_to_an_event" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="24" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0(FoundationTest.Mocks.MockEvent m) : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_have_only_one_subscription" signature="should_have_only_one_subscription() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="93" ex="false" fl="65536" doc="24" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="24" nid="0" />
+        <seqpnt vc="1" o="27" l="27" el="27" c="9" ec="10" ex="false" fl="65536" doc="24" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="25" ex="false" fl="65536" doc="24" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="34" ex="false" fl="65536" doc="24" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="24" nid="0" />
+        <seqpnt vc="1" o="2D" l="20" el="20" c="13" ec="48" ex="false" fl="65536" doc="24" nid="0" />
+        <seqpnt vc="1" o="39" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="24" nid="0" />
+        <seqpnt vc="1" o="39" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="24" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event_by_name" signature="FoundationTest.Eventing.DefaultEventAggregatorTests.When_subscribing_to_an_event_by_name" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="18" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0() : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_add_action_to_subscription_list" signature="should_add_action_to_subscription_list() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="25" el="25" c="13" ec="100" ex="false" fl="65536" doc="18" nid="0" />
+        <seqpnt vc="1" o="27" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="18" nid="0" />
+        <seqpnt vc="1" o="27" l="26" el="26" c="9" ec="10" ex="false" fl="65536" doc="18" nid="0" />
+      </method>
+      <method name="should_have_only_one_subscription" signature="should_have_only_one_subscription() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="31" el="31" c="13" ec="93" ex="false" fl="65536" doc="18" nid="0" />
+        <seqpnt vc="1" o="22" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="18" nid="0" />
+        <seqpnt vc="1" o="22" l="32" el="32" c="9" ec="10" ex="false" fl="65536" doc="18" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="15" el="15" c="13" ec="25" ex="false" fl="65536" doc="18" nid="0" />
+        <seqpnt vc="1" o="8" l="17" el="17" c="13" ec="33" ex="false" fl="65536" doc="18" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="18" nid="0" />
+        <seqpnt vc="1" o="2D" l="19" el="19" c="13" ec="65" ex="false" fl="65536" doc="18" nid="0" />
+        <seqpnt vc="1" o="44" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="18" nid="0" />
+        <seqpnt vc="1" o="44" l="20" el="20" c="9" ec="10" ex="false" fl="65536" doc="18" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.Eventing.EventAggregatorTests.When_subscribing_to_an_event_by_name" signature="FoundationTest.Eventing.EventAggregatorTests.When_subscribing_to_an_event_by_name" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="25" nid="0" />
+      </method>
+      <method name="&lt;When&gt;b__0" signature="&lt;When&gt;b__0() : void [static]" excluded="false" instrumented="false" cc="1" vc="0" nid="0" />
+      <method name="should_have_only_one_subscription" signature="should_have_only_one_subscription() : void" excluded="false" instrumented="true" cc="1" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="26" el="26" c="13" ec="84" ex="false" fl="65536" doc="25" nid="0" />
+        <seqpnt vc="1" o="1D" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="25" nid="0" />
+        <seqpnt vc="1" o="1D" l="27" el="27" c="9" ec="10" ex="false" fl="65536" doc="25" nid="0" />
+      </method>
+      <method name="When" signature="When() : void" excluded="false" instrumented="true" cc="2" vc="1" nid="0">
+        <seqpnt vc="1" o="1" l="16" el="16" c="13" ec="25" ex="false" fl="65536" doc="25" nid="0" />
+        <seqpnt vc="1" o="8" l="18" el="18" c="13" ec="33" ex="false" fl="65536" doc="25" nid="0" />
+        <seqpnt vc="1" o="E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="25" nid="0" />
+        <seqpnt vc="1" o="2D" l="20" el="20" c="13" ec="64" ex="false" fl="65536" doc="25" nid="0" />
+        <seqpnt vc="1" o="3E" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="25" nid="0" />
+        <seqpnt vc="1" o="3E" l="21" el="21" c="9" ec="10" ex="false" fl="65536" doc="25" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.ContextSpecifications.WithEventing" signature="FoundationTest.ContextSpecifications.WithEventing" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="7" nid="0">
+        <seqpnt vc="7" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="12" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="7" nid="0">
+        <seqpnt vc="7" o="1" l="18" el="18" c="13" ec="26" ex="false" fl="65536" doc="12" nid="0" />
+        <seqpnt vc="7" o="8" l="20" el="20" c="13" ec="58" ex="false" fl="65536" doc="12" nid="0" />
+        <seqpnt vc="7" o="13" l="21" el="21" c="13" ec="61" ex="false" fl="65536" doc="12" nid="0" />
+        <seqpnt vc="7" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="12" nid="0" />
+        <seqpnt vc="7" o="1F" l="22" el="22" c="9" ec="10" ex="false" fl="65536" doc="12" nid="0" />
+      </method>
+    </class>
+    <class name="FoundationTest.ContextSpecifications.WithMessaging" signature="FoundationTest.ContextSpecifications.WithMessaging" excluded="false" nid="0">
+      <method name=".ctor" signature=".ctor() : void" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="6" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="34" nid="0" />
+      </method>
+      <method name="Given" signature="Given() : void" excluded="false" instrumented="true" cc="1" vc="4" nid="0">
+        <seqpnt vc="4" o="1" l="15" el="15" c="13" ec="26" ex="false" fl="65536" doc="34" nid="0" />
+        <seqpnt vc="4" o="8" l="17" el="17" c="13" ec="54" ex="false" fl="65536" doc="34" nid="0" />
+        <seqpnt vc="4" o="13" l="18" el="18" c="13" ec="60" ex="false" fl="65536" doc="34" nid="0" />
+        <seqpnt vc="4" o="1F" l="0" el="0" c="0" ec="0" ex="false" fl="131072" doc="34" nid="0" />
+        <seqpnt vc="4" o="1F" l="19" el="19" c="9" ec="10" ex="false" fl="65536" doc="34" nid="0" />
+      </method>
+    </class>
+  </module>
+</coverage>

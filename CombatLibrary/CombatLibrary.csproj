@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A28D91E3-377C-4537-A495-D5954F5BA6E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CombatLibrary</RootNamespace>
+    <AssemblyName>CombatLibrary</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CombatActions\CombatAction.cs" />
+    <Compile Include="CombatActions\CombatActionExtensions.cs" />
+    <Compile Include="CombatActions\RegularAttackAction.cs" />
+    <Compile Include="CombatActions\ICombatAction.cs" />
+    <Compile Include="CombatMembers\IMonsterCombatMember.cs" />
+    <Compile Include="Events\CombatDeathEvent.cs" />
+    <Compile Include="Events\CombatEvents.cs" />
+    <Compile Include="Events\PlayerReadyForActionEvent.cs" />
+    <Compile Include="TargetStrategies\ITarget.cs" />
+    <Compile Include="TargetStrategies\RandomTargetStrategy.cs" />
+    <Compile Include="TargetStrategies\SingleTarget.cs" />
+    <Compile Include="CombatEncounters\CombatEncounter.cs" />
+    <Compile Include="CombatEncounters\ICombatEncounter.cs" />
+    <Compile Include="CombatMembers\CombatMember.cs" />
+    <Compile Include="CombatMembers\ICombatMember.cs" />
+    <Compile Include="CombatMembers\MonsterCombatMember.cs" />
+    <Compile Include="CombatMembers\PlayerCombatMember.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TargetStrategies\ITargetStrategy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Foundation\Foundation.csproj">
+      <Project>{D310D9DD-6B3B-47D0-820A-A0C482F603D6}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

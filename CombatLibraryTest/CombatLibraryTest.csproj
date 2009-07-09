@@ -1,0 +1,77 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CombatLibraryTest</RootNamespace>
+    <AssemblyName>CombatLibraryTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CombatActions\Contexts\SinglePlayerWith100Health.cs" />
+    <Compile Include="CombatActions\RegularAttackActionTests\When_regular_attacking_for_greater_than_total_health.cs" />
+    <Compile Include="CombatActions\RegularAttackActionTests\When_regular_attacking_for_less_than_total_health.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterTests\When_adding_monsters.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterTests\When_setting_players.cs" />
+    <Compile Include="CombatEncounters\Contexts\NewCombatEncounter.cs" />
+    <Compile Include="CombatMembers\MonsterCombatMemberTests\Contexts\NewMonster.cs" />
+    <Compile Include="CombatMembers\MonsterCombatMemberTests\When_setting_target_strategy.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TargetStrategies\Contexts\SimplePartyOfFour.cs" />
+    <Compile Include="TargetStrategies\RandomTargetStrategyTests\When_getting_target.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CombatLibrary\CombatLibrary.csproj">
+      <Project>{A28D91E3-377C-4537-A495-D5954F5BA6E1}</Project>
+      <Name>CombatLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FoundationTest\FoundationTest.csproj">
+      <Project>{CA463F3B-5F66-4E22-9788-09ACDE888B4B}</Project>
+      <Name>FoundationTest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Foundation\Foundation.csproj">
+      <Project>{D310D9DD-6B3B-47D0-820A-A0C482F603D6}</Project>
+      <Name>Foundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
