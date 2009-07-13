@@ -20,6 +20,6 @@ namespace CombatLibrary.CombatEncounters
         /// </summary>
         /// <param name="players">The players.</param>
         /// <returns></returns>
-        ICombatEncounter SetPlayers(IEnumerable<PlayerCombatMember> players);
+        ICombatEncounter SetPlayers(IEnumerable<IPlayerCombatMember> players);
     }
 }

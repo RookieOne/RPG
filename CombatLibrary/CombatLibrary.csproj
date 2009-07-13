@@ -45,14 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CombatActionStrategies\CombatActionStrategy.cs" />
+    <Compile Include="CombatActionStrategies\ICombatActionStrategy.cs" />
+    <Compile Include="CombatActionStrategies\RegularAttackStrategy.cs" />
     <Compile Include="CombatActions\CombatAction.cs" />
     <Compile Include="CombatActions\CombatActionExtensions.cs" />
     <Compile Include="CombatActions\RegularAttackAction.cs" />
     <Compile Include="CombatActions\ICombatAction.cs" />
     <Compile Include="CombatMembers\IMonsterCombatMember.cs" />
+    <Compile Include="CombatMembers\IPlayerCombatMember.cs" />
     <Compile Include="Events\CombatDeathEvent.cs" />
     <Compile Include="Events\CombatEvents.cs" />
+    <Compile Include="Events\MonstersWinEvent.cs" />
     <Compile Include="Events\PlayerReadyForActionEvent.cs" />
+    <Compile Include="Events\PlayersWinEvent.cs" />
+    <Compile Include="Events\RoundBeganEvent.cs" />
+    <Compile Include="Events\RoundEndEvent.cs" />
+    <Compile Include="Messages\PlayerActionMessage.cs" />
     <Compile Include="TargetStrategies\ITarget.cs" />
     <Compile Include="TargetStrategies\RandomTargetStrategy.cs" />
     <Compile Include="TargetStrategies\SingleTarget.cs" />

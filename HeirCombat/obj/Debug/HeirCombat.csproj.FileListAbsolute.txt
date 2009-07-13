@@ -1,0 +1,7 @@
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\bin\Debug\HeirCombat.Contracts.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\bin\Debug\HeirCombat.Contracts.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\bin\Debug\HeirCombat.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\bin\Debug\HeirCombat.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\obj\Debug\HeirCombat.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\HeirCombat\obj\Debug\HeirCombat.pdb

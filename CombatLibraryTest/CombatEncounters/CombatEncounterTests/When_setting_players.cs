@@ -21,7 +21,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
                                new PlayerCombatMember(100),
                                new PlayerCombatMember(100)
                            };
-            _combatEncounter.SetPlayers(_players);
+            _combatEncounter.SetPlayers(_players.Cast<IPlayerCombatMember>());
         }
 
         [Test]

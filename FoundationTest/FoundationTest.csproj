@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="ContextSpecifications\ContextSpecification.cs" />
     <Compile Include="ContextSpecifications\WithEventing.cs" />
+    <Compile Include="ContextSpecifications\WithEventingAndMessaging.cs" />
     <Compile Include="ContextSpecifications\WithMessaging.cs" />
     <Compile Include="Eventing\Contexts\NewDefaultEventAggregator.cs" />
     <Compile Include="Eventing\DefaultEventAggregatorTests\When_publishing_an_event_by_name_with_a_single_subscription.cs" />

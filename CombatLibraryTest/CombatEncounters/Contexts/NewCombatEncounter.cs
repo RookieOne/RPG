@@ -3,7 +3,7 @@ using FoundationTest.ContextSpecifications;
 
 namespace CombatLibraryTest.CombatEncounters.Contexts
 {
-    public class NewCombatEncounter : WithEventing
+    public class NewCombatEncounter : WithEventingAndMessaging
     {
         protected CombatEncounter _combatEncounter;
 

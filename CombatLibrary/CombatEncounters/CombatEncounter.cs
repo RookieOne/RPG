@@ -1,7 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+using CombatLibrary.CombatActions;
 using CombatLibrary.CombatMembers;
 using CombatLibrary.Events;
+using CombatLibrary.Messages;
 using Foundation.Eventing;
+using Foundation.Messaging;
 
 namespace CombatLibrary.CombatEncounters
 {
@@ -10,16 +14,20 @@ namespace CombatLibrary.CombatEncounters
     /// </summary>
     public class CombatEncounter : ICombatEncounter
     {
-        public List<IMonsterCombatMember> _monsters;
-        public IEnumerable<PlayerCombatMember> _players;
-
         /// <summary>
         /// Initializes a new instance of the <see cref="CombatEncounter"/> class.
         /// </summary>
         public CombatEncounter()
         {
+            _round = 0;
             _monsters = new List<IMonsterCombatMember>();
+
+            MessageBroker.Register<PlayerActionMessage>(OnPlayerAction);
         }
+
+        public List<IMonsterCombatMember> _monsters;
+        public List<PlayerActionMessage> _playerActions;
+        public IEnumerable<IPlayerCombatMember> _players;
 
         /// <summary>
         /// Adds the monsters to combat encounter.
@@ -32,25 +40,118 @@ namespace CombatLibrary.CombatEncounters
             return this;
         }
 
-        public bool IsFinished()
+        /// <summary>
+        /// All the monsters are dead.
+        /// </summary>
+        /// <returns></returns>
+        public bool AllMonstersAreDead()
         {
-            bool allMonstersAreDead = true;
             foreach (var monster in _monsters)
                 if (!monster.IsDead)
                 {
-                    allMonstersAreDead = false;
-                    break;
+                    return false;
                 }
+            return true;
+        }
 
-            bool allPlayersAreDead = true;
+        /// <summary>
+        /// All the players are dead.
+        /// </summary>
+        /// <returns></returns>
+        public bool AllPlayersAreDead()
+        {
             foreach (var player in _players)
                 if (!player.IsDead)
                 {
-                    allPlayersAreDead = false;
-                    break;
+                    return false;
                 }
 
-            return allMonstersAreDead || allPlayersAreDead;
+            return true;
+        }
+
+        /// <summary>
+        /// Asks for player actions.
+        /// </summary>
+        public void AskForPlayerActions()
+        {
+            foreach (var player in _players)
+            {
+                EventAggregator.Publish(new PlayerReadyForActionEvent(player));
+            }
+        }
+
+        private int _round;
+
+        /// <summary>
+        /// Executes a combat round.
+        /// </summary>
+        public void ExecuteRound()
+        {
+            _round++;
+            EventAggregator.Publish(new RoundBeganEvent(_round));
+
+            var actions = new List<ICombatAction>();
+            _playerActions.ForEach(m => actions.Add(m.Action));
+
+            _monsters.ForEach(m => actions.Add(m.GetCombatAction(_players.Cast<ICombatMember>())));
+
+            foreach (var action in actions)
+            {
+                action.Execute();
+
+                if (AllPlayersAreDead())
+                {
+                    EventAggregator.Publish(new MonstersWinEvent());
+                    return;
+                }
+
+                if (AllMonstersAreDead())
+                {
+                    EventAggregator.Publish(new PlayersWinEvent());
+                    return;
+                }
+            }
+
+            EventAggregator.Publish(new RoundEndEvent(_round));
+
+            AskForPlayerActions();
+        }
+
+        /// <summary>
+        /// Initializes the player actions.
+        /// </summary>
+        private void InitializePlayerActions()
+        {
+            _playerActions = new List<PlayerActionMessage>();
+        }
+
+        /// <summary>
+        /// Called when [player action].
+        /// </summary>
+        /// <param name="m">The message.</param>
+        public void OnPlayerAction(PlayerActionMessage m)
+        {
+            PlayerActionMessage foundAction = _playerActions.FirstOrDefault(a => a.Player == m.Player);
+
+            if (foundAction != null)
+            {
+                _playerActions.Remove(foundAction);
+            }
+
+            _playerActions.Add(m);
+
+            bool allPlayersHaveAnAction = true;
+            foreach (var player in _players)
+            {
+                if (!_playerActions.Exists(a => a.Player == player))
+                {
+                    allPlayersHaveAnAction = false;
+                    break;
+                }
+            }
+
+            if (allPlayersHaveAnAction)
+                ExecuteRound();
         }
 
         /// <summary>
@@ -58,14 +159,14 @@ namespace CombatLibrary.CombatEncounters
         /// </summary>
         /// <param name="players">The players.</param>
         /// <returns></returns>
-        public ICombatEncounter SetPlayers(IEnumerable<PlayerCombatMember> players)
+        public ICombatEncounter SetPlayers(IEnumerable<IPlayerCombatMember> players)
         {
+            InitializePlayerActions();
+
             _players = players;
 
-            foreach (var player in players)
-            {
-                EventAggregator.Publish(new PlayerReadyForActionEvent(player));
-            }
+            AskForPlayerActions();
+
             return this;
         }
     }

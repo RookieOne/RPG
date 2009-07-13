@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using CombatLibrary.CombatActions;
+using CombatLibrary.CombatActionStrategies;
 using CombatLibrary.TargetStrategies;
 
 namespace CombatLibrary.CombatMembers
@@ -8,7 +10,32 @@ namespace CombatLibrary.CombatMembers
     /// </summary>
     public class MonsterCombatMember : CombatMember, IMonsterCombatMember
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MonsterCombatMember"/> class.
+        /// </summary>
+        /// <param name="health">The health.</param>
+        public MonsterCombatMember(int health)
+        {
+            AddHealth(health);
+        }
+
+        public ICombatActionStrategy _combatActionStrategy;
         public ITargetStrategy _targetStrategy;
+
+        /// <summary>
+        /// Gets the combat action.
+        /// </summary>
+        /// <returns></returns>
+        public ICombatAction GetCombatAction(IEnumerable<ICombatMember> combatMembers)
+        {
+            if (_combatActionStrategy == null
+                || _targetStrategy == null)
+                return null;
+
+            ITarget target = GetTarget(combatMembers);
+
+            return _combatActionStrategy.GetCombatAction(target);
+        }
 
         /// <summary>
         /// Gets a target.
@@ -17,16 +44,30 @@ namespace CombatLibrary.CombatMembers
         /// <returns></returns>
         public ITarget GetTarget(IEnumerable<ICombatMember> combatMembers)
         {
+            if (_targetStrategy == null)
+                return null;
+
             return _targetStrategy.GetTarget(combatMembers);
+        }
+
+        /// <summary>
+        /// Sets the combat action strategy.
+        /// </summary>
+        /// <param name="combatActionStrategy">The combat action strategy.</param>
+        public IMonsterCombatMember SetCombatActionStrategy(ICombatActionStrategy combatActionStrategy)
+        {
+            _combatActionStrategy = combatActionStrategy;
+            return this;
         }
 
         /// <summary>
         /// Sets the target strategy.
         /// </summary>
         /// <param name="targetStrategy">The target strategy.</param>
-        public void SetTargetStrategy(ITargetStrategy targetStrategy)
+        public IMonsterCombatMember SetTargetStrategy(ITargetStrategy targetStrategy)
         {
             _targetStrategy = targetStrategy;
+            return this;
         }
     }
 }

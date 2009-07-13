@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using CombatLibrary.CombatActions;
+using CombatLibrary.CombatActionStrategies;
 using CombatLibrary.TargetStrategies;
 
 namespace CombatLibrary.CombatMembers
@@ -9,16 +11,21 @@ namespace CombatLibrary.CombatMembers
     public interface IMonsterCombatMember : ICombatMember
     {
         /// <summary>
+        /// Gets the combat action.
+        /// </summary>
+        /// <returns></returns>
+        ICombatAction GetCombatAction(IEnumerable<ICombatMember> combatMembers);
+
+        /// <summary>
+        /// Sets the combat action strategy.
+        /// </summary>
+        /// <param name="combatActionStrategy">The combat action strategy.</param>
+        IMonsterCombatMember SetCombatActionStrategy(ICombatActionStrategy combatActionStrategy);
+
+        /// <summary>
         /// Sets the target strategy.
         /// </summary>
         /// <param name="targetStrategy">The target strategy.</param>
-        void SetTargetStrategy(ITargetStrategy targetStrategy);
-
-        /// <summary>
-        /// Gets a target.
-        /// </summary>
-        /// <param name="combatMembers">The combat members.</param>
-        /// <returns></returns>
-        ITarget GetTarget(IEnumerable<ICombatMember> combatMembers);
+        IMonsterCombatMember SetTargetStrategy(ITargetStrategy targetStrategy);
     }
 }

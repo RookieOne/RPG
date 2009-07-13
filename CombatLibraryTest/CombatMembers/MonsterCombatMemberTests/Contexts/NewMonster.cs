@@ -11,7 +11,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.Contexts
         {
             base.Given();
 
-            _monster = new MonsterCombatMember();
+            _monster = new MonsterCombatMember(10);
         }
     }
 }
