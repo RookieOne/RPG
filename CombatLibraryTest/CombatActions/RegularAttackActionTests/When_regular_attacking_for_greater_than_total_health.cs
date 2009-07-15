@@ -1,4 +1,5 @@
 ﻿using CombatLibrary.CombatActions;
+using CombatLibrary.Events;
 using CombatLibraryTest.CombatActions.Contexts;
 using NUnit.Framework;
 
@@ -26,6 +27,12 @@ namespace CombatLibraryTest.CombatActions.RegularAttackActionTests
         public void should_take_player_health_to_zerp()
         {
             Assert.AreEqual(0, _singlePlayer.Health);
+        }
+
+        [Test]
+        public void should_publish_damage_event()
+        {
+            Assert.AreEqual(1, _eventAggregator.GetPublicationCount<DamageEvent>());
         }
     }
 }

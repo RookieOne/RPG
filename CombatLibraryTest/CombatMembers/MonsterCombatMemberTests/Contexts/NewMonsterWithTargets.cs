@@ -15,7 +15,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests.Contexts
 
             _players = new List<PlayerCombatMember>
                            {
-                               new PlayerCombatMember(10)
+                               new PlayerCombatMember(10, "player")
                            };
         }
     }

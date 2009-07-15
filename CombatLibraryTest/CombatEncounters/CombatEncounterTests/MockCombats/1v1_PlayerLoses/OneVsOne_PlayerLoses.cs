@@ -17,8 +17,8 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests.MockCombats._1
         {
             base.Given();
 
-            _player = new PlayerCombatMember(2);
-            _monster = new MonsterCombatMember(100)
+            _player = new PlayerCombatMember(2, "player");
+            _monster = new MonsterCombatMember(100, "monster")
                            .SetTargetStrategy(new RandomTargetStrategy())
                            .SetCombatActionStrategy(new RegularAttackStrategy()) as MonsterCombatMember;
 

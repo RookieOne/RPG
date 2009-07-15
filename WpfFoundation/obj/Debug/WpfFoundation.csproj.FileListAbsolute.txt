@@ -1,0 +1,9 @@
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\bin\Debug\WpfFoundation.Contracts.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\bin\Debug\WpfFoundation.Contracts.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\bin\Debug\WpfFoundation.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\bin\Debug\WpfFoundation.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\obj\Debug\WpfFoundation.Properties.Resources.resources
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\obj\Debug\WpfFoundation.csproj.GenerateResource.Cache
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\obj\Debug\WpfFoundation.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation\obj\Debug\WpfFoundation.pdb

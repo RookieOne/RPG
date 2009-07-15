@@ -16,7 +16,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
 
             var monsters = new List<IMonsterCombatMember>
                                {
-                                   new MonsterCombatMember(10)
+                                   new MonsterCombatMember(10, "monster")
                                };
 
             _combatEncounter.AddMonsters(monsters);

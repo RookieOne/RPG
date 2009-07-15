@@ -16,6 +16,12 @@ namespace CombatLibrary.CombatEncounters
         ICombatEncounter AddMonsters(IEnumerable<IMonsterCombatMember> monsters);
 
         /// <summary>
+        /// Begins combat.
+        /// </summary>
+        /// <returns></returns>
+        ICombatEncounter BeginCombat();
+
+        /// <summary>
         /// Sets the players.
         /// </summary>
         /// <param name="players">The players.</param>

@@ -16,7 +16,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
 
             var players = new List<IPlayerCombatMember>
                               {
-                                  new PlayerCombatMember(10)
+                                  new PlayerCombatMember(10, "player")
                               };
 
             _combatEncounter.SetPlayers(players);

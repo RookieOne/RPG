@@ -9,7 +9,9 @@
         /// Initializes a new instance of the <see cref="PlayerCombatMember"/> class.
         /// </summary>
         /// <param name="health">The health.</param>
-        public PlayerCombatMember(int health)
+        /// <param name="name">The name.</param>
+        public PlayerCombatMember(int health, string name)
+            : base(name)
         {
             AddHealth(health);
         }

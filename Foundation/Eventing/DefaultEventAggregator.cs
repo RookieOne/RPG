@@ -27,30 +27,34 @@ namespace Foundation.Eventing
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="eventToPublish">The event to publish.</param>
-        public void Publish<T>(T eventToPublish)
+        public IEventAggregator Publish<T>(T eventToPublish)
         {
             Type eventType = typeof (T);
 
             if (!_subscriptions.ContainsKey(eventType))
-                return;
+                return this;
 
             _subscriptions[eventType]
                 .Cast<Action<T>>()
                 .ForEach(a => a.Invoke(eventToPublish));
+
+            return this;
         }
 
         /// <summary>
         /// Publishes the specified event name.
         /// </summary>
         /// <param name="eventName">Name of the event.</param>
-        public void Publish(string eventName)
+        public IEventAggregator Publish(string eventName)
         {
             if (!_subscriptionsByName.ContainsKey(eventName))
-                return;
+                return this;
 
             _subscriptionsByName[eventName]
                 .Cast<Action>()
                 .ForEach(a => a.Invoke());
+
+            return this;
         }
 
         /// <summary>
@@ -58,7 +62,7 @@ namespace Foundation.Eventing
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="subscriptionAction">The subscription action.</param>
-        public void Subscribe<T>(Action<T> subscriptionAction)
+        public IEventAggregator Subscribe<T>(Action<T> subscriptionAction)
         {
             Type eventType = typeof (T);
 
@@ -66,6 +70,8 @@ namespace Foundation.Eventing
                 _subscriptions.Add(eventType, new List<object>());
 
             _subscriptions[eventType].Add(subscriptionAction);
+
+            return this;
         }
 
         /// <summary>
@@ -73,12 +79,14 @@ namespace Foundation.Eventing
         /// </summary>
         /// <param name="eventName">Name of the event.</param>
         /// <param name="subscriptionAction">The subscription action.</param>
-        public void Subscribe(string eventName, Action subscriptionAction)
+        public IEventAggregator Subscribe(string eventName, Action subscriptionAction)
         {
             if (!_subscriptionsByName.ContainsKey(eventName))
                 _subscriptionsByName.Add(eventName, new List<object>());
 
             _subscriptionsByName[eventName].Add(subscriptionAction);
+
+            return this;
         }
     }
 }

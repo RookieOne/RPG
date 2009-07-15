@@ -13,10 +13,10 @@ namespace CombatLibraryTest.TargetStrategies.Contexts
             base.Given();
 
             _combatMembers = new List<ICombatMember>();
-            _combatMembers.Add(new PlayerCombatMember(100));
-            _combatMembers.Add(new PlayerCombatMember(100));
-            _combatMembers.Add(new PlayerCombatMember(100));
-            _combatMembers.Add(new PlayerCombatMember(100));
+            _combatMembers.Add(new PlayerCombatMember(100, "player1"));
+            _combatMembers.Add(new PlayerCombatMember(100, "player2"));
+            _combatMembers.Add(new PlayerCombatMember(100, "player3"));
+            _combatMembers.Add(new PlayerCombatMember(100, "player4"));
         }
     }
 }

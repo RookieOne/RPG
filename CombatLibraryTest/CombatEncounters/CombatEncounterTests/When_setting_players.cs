@@ -18,8 +18,8 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
 
             _players = new List<PlayerCombatMember>
                            {
-                               new PlayerCombatMember(100),
-                               new PlayerCombatMember(100)
+                               new PlayerCombatMember(100, "player"),
+                               new PlayerCombatMember(100, "player")
                            };
             _combatEncounter.SetPlayers(_players.Cast<IPlayerCombatMember>());
         }
@@ -38,9 +38,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
         }
 
         [Test]
-        public void should_send_player_ready_for_action_events_for_each_player()
+        public void should_not_send_player_ready_for_action_events_for_each_player()
         {
-            Assert.AreEqual(2, _eventAggregator.GetPublicationCount<PlayerReadyForActionEvent>());
+            Assert.AreEqual(0, _eventAggregator.GetPublicationCount<PlayerReadyForActionEvent>());
         }
     }
 }

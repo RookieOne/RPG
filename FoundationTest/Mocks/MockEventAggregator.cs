@@ -51,20 +51,22 @@ namespace FoundationTest.Mocks
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="eventToPublish">The event to publish.</param>
-        public void Publish<T>(T eventToPublish)
+        public IEventAggregator Publish<T>(T eventToPublish)
         {
             RecordPublication(typeof (T).Name);
             _eventAggregator.Publish(eventToPublish);
+            return this;
         }
 
         /// <summary>
         /// Publishes the specified event name.
         /// </summary>
         /// <param name="eventName">Name of the event.</param>
-        public void Publish(string eventName)
+        public IEventAggregator Publish(string eventName)
         {
             RecordPublication(eventName);
             _eventAggregator.Publish(eventName);
+            return this;
         }
 
         /// <summary>
@@ -96,10 +98,11 @@ namespace FoundationTest.Mocks
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="subscriptionAction">The subscription action.</param>
-        public void Subscribe<T>(Action<T> subscriptionAction)
+        public IEventAggregator Subscribe<T>(Action<T> subscriptionAction)
         {
             RecordSubscription(typeof (T).Name);
             _eventAggregator.Subscribe(subscriptionAction);
+            return this;
         }
 
         /// <summary>
@@ -107,10 +110,11 @@ namespace FoundationTest.Mocks
         /// </summary>
         /// <param name="eventName">Name of the event.</param>
         /// <param name="subscriptionAction">The subscription action.</param>
-        public void Subscribe(string eventName, Action subscriptionAction)
+        public IEventAggregator Subscribe(string eventName, Action subscriptionAction)
         {
             RecordSubscription(eventName);
             _eventAggregator.Subscribe(eventName, subscriptionAction);
+            return this;
         }
     }
 }

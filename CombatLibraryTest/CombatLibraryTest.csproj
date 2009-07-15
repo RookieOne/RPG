@@ -44,6 +44,7 @@
     <Compile Include="CombatActions\Contexts\SinglePlayerWith100Health.cs" />
     <Compile Include="CombatActions\RegularAttackActionTests\When_regular_attacking_for_greater_than_total_health.cs" />
     <Compile Include="CombatActions\RegularAttackActionTests\When_regular_attacking_for_less_than_total_health.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterServiceTests\When_recieving_start_combat_message.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\MockCombats\1v1_PlayerLoses\OneVsOne_PlayerLoses.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\MockCombats\1v1_PlayerLoses\When_players_attacks_round_two.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\MockCombats\1v1_PlayerLoses\When_player_attacks_round_one.cs" />
@@ -53,10 +54,12 @@
     <Compile Include="CombatEncounters\CombatEncounterTests\When_adding_monsters.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_all_monsters_are_not_dead.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_all_players_are_dead.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterTests\When_beginning_combat_with_monsters_and_players_set.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_recieved_all_player_actions.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_recieving_player_action.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_recieving_two_players_actions_for_same_player.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_setting_players.cs" />
+    <Compile Include="CombatEncounters\Contexts\CreatedCombatEncounterService.cs" />
     <Compile Include="CombatEncounters\Contexts\NewCombatEncounter.cs" />
     <Compile Include="CombatEncounters\Contexts\NewCombatWithPlayersSet.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_all_players_are_not_dead.cs" />

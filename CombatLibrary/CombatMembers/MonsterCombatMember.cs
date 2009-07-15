@@ -14,7 +14,9 @@ namespace CombatLibrary.CombatMembers
         /// Initializes a new instance of the <see cref="MonsterCombatMember"/> class.
         /// </summary>
         /// <param name="health">The health.</param>
-        public MonsterCombatMember(int health)
+        /// <param name="name">The name.</param>
+        public MonsterCombatMember(int health, string name)
+            : base(name)
         {
             AddHealth(health);
         }

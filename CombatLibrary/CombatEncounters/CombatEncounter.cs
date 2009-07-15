@@ -28,6 +28,7 @@ namespace CombatLibrary.CombatEncounters
         public List<IMonsterCombatMember> _monsters;
         public List<PlayerActionMessage> _playerActions;
         public IEnumerable<IPlayerCombatMember> _players;
+        private int _round;
 
         /// <summary>
         /// Adds the monsters to combat encounter.
@@ -36,7 +37,9 @@ namespace CombatLibrary.CombatEncounters
         /// <returns></returns>
         public ICombatEncounter AddMonsters(IEnumerable<IMonsterCombatMember> monsters)
         {
-            _monsters.AddRange(monsters);
+            if (monsters != null)
+                _monsters.AddRange(monsters);
+
             return this;
         }
 
@@ -80,7 +83,19 @@ namespace CombatLibrary.CombatEncounters
             }
         }
 
-        private int _round;
+        /// <summary>
+        /// Begins combat.
+        /// </summary>
+        /// <returns></returns>
+        public ICombatEncounter BeginCombat()
+        {
+            if (_monsters == null || _players == null)
+                return this;
+
+            AskForPlayerActions();
+
+            return this;
+        }
 
         /// <summary>
         /// Executes a combat round.
@@ -161,11 +176,12 @@ namespace CombatLibrary.CombatEncounters
         /// <returns></returns>
         public ICombatEncounter SetPlayers(IEnumerable<IPlayerCombatMember> players)
         {
+            if (players == null)
+                return this;
+
             InitializePlayerActions();
 
             _players = players;
-
-            AskForPlayerActions();
 
             return this;
         }

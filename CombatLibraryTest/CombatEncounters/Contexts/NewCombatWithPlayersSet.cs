@@ -13,8 +13,8 @@ namespace CombatLibraryTest.CombatEncounters.Contexts
             base.Given();
 
             _players = new List<PlayerCombatMember>();
-            _players.Add(new PlayerCombatMember(10));
-            _players.Add(new PlayerCombatMember(10));
+            _players.Add(new PlayerCombatMember(10, "player1"));
+            _players.Add(new PlayerCombatMember(10, "player2"));
 
             _combatEncounter.SetPlayers(_players.Cast<IPlayerCombatMember>());
         }

@@ -50,9 +50,10 @@ namespace Foundation.Eventing
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="subscriptionAction">The subscription action.</param>
-        public static void Subscribe<T>(Action<T> subscriptionAction)
+        public static IEventAggregator Subscribe<T>(Action<T> subscriptionAction)
         {
             _eventAggregator.Subscribe(subscriptionAction);
+            return _eventAggregator;
         }
 
         /// <summary>

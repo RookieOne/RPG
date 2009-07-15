@@ -3,7 +3,7 @@ using FoundationTest.ContextSpecifications;
 
 namespace CombatLibraryTest.CombatActions.Contexts
 {
-    public class SinglePlayerWith100Health : ContextSpecification
+    public class SinglePlayerWith100Health : WithEventing
     {
         protected PlayerCombatMember _singlePlayer;
 
@@ -11,7 +11,7 @@ namespace CombatLibraryTest.CombatActions.Contexts
         {
             base.Given();
 
-            _singlePlayer = new PlayerCombatMember(100);            
+            _singlePlayer = new PlayerCombatMember(100, "player");            
         }
     }
 }
