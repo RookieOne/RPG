@@ -60,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CombatEncounterView\CombatEncounterViewModel.cs" />
+    <Compile Include="Coordinators\CombatEncounterCoordinator.cs" />
+    <Compile Include="PlayerPartyStatsView\PlayerPartyStatsViewModel.cs" />
+    <Compile Include="Presenters\CombatPresenters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -99,6 +102,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="CombatEncounterView\CombatEncounterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayerPartyStatsView\PlayerPartyStatsView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -20,7 +20,7 @@ namespace WpfRPGShell
 
             CombatCommand = new ActionCommand(OnCombat);
 
-            Presenter.Register(Presenters.Shell, new ContentControlPresenter(content));
+            Presenter.Register(AppPresenters.Shell, new ContentControlPresenter(content));
 
             DataContext = this;
         }

@@ -1,5 +1,6 @@
 ﻿using CombatLibrary.Events;
-using Foundation.Eventing;
+using WpfCombat.PlayerPartyStatsView;
+using WpfCombat.Presenters;
 using WpfFoundation.Presenters;
 using WpfFoundation.ViewModels;
 
@@ -7,18 +8,9 @@ namespace WpfCombat.CombatEncounterView
 {
     public class CombatEncounterViewModel : ViewModel
     {
-        static CombatEncounterViewModel()
+        internal CombatEncounterViewModel(CombatStartedEvent e)
         {
-            EventAggregator.Subscribe<CombatStartedEvent>(OnCombatStarted);
-        }
-
-        private CombatEncounterViewModel(CombatStartedEvent e)
-        {
-        }
-
-        private static void OnCombatStarted(CombatStartedEvent e)
-        {
-            Presenter.Show(Presenters.Shell, new CombatEncounterViewModel(e));
+            Presenter.Show(CombatPresenters.PlayerPartyStats, new PlayerPartyStatsViewModel(e));
         }
     }
 }

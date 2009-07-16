@@ -18,3 +18,4 @@ C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat\obj\Debug\
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat\obj\Debug\WpfCombat_MarkupCompile.lref
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat\obj\Debug\CombatEncounterView\CombatEncounterView.baml
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat\obj\Debug\WpfCombat.g.resources
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat\obj\Debug\PlayerPartyStatsView\PlayerPartyStatsView.baml

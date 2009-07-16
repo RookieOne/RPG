@@ -1,13 +1,28 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:CombatEncounterView="clr-namespace:WpfCombat.CombatEncounterView">
+    xmlns:CombatEncounterView="clr-namespace:WpfCombat.CombatEncounterView"
+    xmlns:Presenters="clr-namespace:WpfFoundation.Presenters;assembly=WpfFoundation"
+    xmlns:Presenters1="clr-namespace:WpfCombat.Presenters">
     
     
     <DataTemplate DataType="{x:Type CombatEncounterView:CombatEncounterViewModel}">
         
-        <DockPanel>
-            <TextBlock Text="Combat Encounter" />
-        </DockPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="7*" /> 
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="5*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            
+            <ContentControl Grid.Row="1"
+                            Grid.Column="2"
+                            Presenters:AssignPresenter.Name="{x:Static Presenters1:CombatPresenters.PlayerPartyStats}" />
+        </Grid>
         
     </DataTemplate>
     
