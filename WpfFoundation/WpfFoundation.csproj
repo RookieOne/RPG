@@ -54,7 +54,9 @@
     <Compile Include="Loaders\ResourceDictionaryLoader.cs" />
     <Compile Include="Presenters\AssignPresenter.cs" />
     <Compile Include="Presenters\ContentControlPresenter.cs" />
+    <Compile Include="Presenters\DefaultPresenterFacade.cs" />
     <Compile Include="Presenters\IPresenter.cs" />
+    <Compile Include="Presenters\IPresenterFacade.cs" />
     <Compile Include="Presenters\Presenter.cs" />
     <Compile Include="Presenters\AppPresenters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

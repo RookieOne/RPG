@@ -10,9 +10,9 @@ namespace FoundationTest.Eventing.DefaultEventAggregatorTests
     {        
         private Action _action;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _action = () => { };
 
@@ -22,12 +22,14 @@ namespace FoundationTest.Eventing.DefaultEventAggregatorTests
         [Test]
         public void should_add_action_to_subscription_list()
         {
+            When();
             Assert.IsTrue(_eventAggregator._subscriptionsByName[MockEvent.Name].Contains(_action));
         }
 
         [Test]
         public void should_have_only_one_subscription()
         {
+            When();
             Assert.AreEqual(1, _eventAggregator._subscriptionsByName[MockEvent.Name].Count);
         }
     }

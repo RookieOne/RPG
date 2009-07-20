@@ -6,9 +6,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests.MockCombats._1
     [TestFixture]
     public class When_player_attacks_round_one : OneVsOne_PlayerLoses
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             Round1();
         }

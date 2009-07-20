@@ -1,4 +1,5 @@
-﻿using CombatLibrary.Events;
+﻿using System;
+using CombatLibrary.Events;
 using Foundation.Eventing;
 
 namespace CombatLibrary.CombatMembers
@@ -14,6 +15,7 @@ namespace CombatLibrary.CombatMembers
         /// <param name="name">The name.</param>
         protected CombatMember(string name)
         {
+            Id = Guid.NewGuid();
             Name = name;
         }
 
@@ -22,6 +24,12 @@ namespace CombatLibrary.CombatMembers
         /// </summary>
         /// <value>The health.</value>
         public int Health { get; private set; }
+
+        /// <summary>
+        /// Gets the id.
+        /// </summary>
+        /// <value>The id.</value>
+        public Guid Id { get; private set; }
 
         /// <summary>
         /// Gets a value indicating whether this instance is dead.

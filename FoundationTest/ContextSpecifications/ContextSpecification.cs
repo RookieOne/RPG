@@ -1,4 +1,7 @@
-﻿namespace FoundationTest.ContextSpecifications
+﻿using NUnit.Framework;
+using Rhino.Mocks;
+
+namespace FoundationTest.ContextSpecifications
 {
     /// <summary>
     /// Base context specification
@@ -6,13 +9,16 @@
     public class ContextSpecification
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ContextSpecification"/> class.
+        /// Setups this instance.
         /// </summary>
-        public ContextSpecification()
-        {
-            Given();
-            When();
+        [SetUp]
+        public void Setup()
+        {                   
+            _mock = new MockRepository();
+            Given();        
         }
+
+        protected MockRepository _mock;
 
         /// <summary>
         /// Given
@@ -24,7 +30,17 @@
         /// <summary>
         /// When
         /// </summary>
-        public virtual void When()
+        protected void When()
+        {
+            _mock.ReplayAll();
+            OnWhen();
+            _mock.VerifyAll();
+        }
+
+        /// <summary>
+        /// When
+        /// </summary>
+        public virtual void OnWhen()
         {
         }
     }

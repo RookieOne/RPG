@@ -9,9 +9,9 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
     {
         private RandomTargetStrategy _targetStrategy;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _targetStrategy = new RandomTargetStrategy();
             _monster.SetTargetStrategy(_targetStrategy);
@@ -20,6 +20,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
         [Test]
         public void should_set_target_strategy()
         {
+            When();
             Assert.AreEqual(_targetStrategy, _monster._targetStrategy);
         }
     }

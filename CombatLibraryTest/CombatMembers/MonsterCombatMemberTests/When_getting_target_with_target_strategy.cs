@@ -9,9 +9,9 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
     [TestFixture]
     public class When_getting_target_with_target_strategy : NewMonsterWithTargets
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _monster.SetTargetStrategy(new RandomTargetStrategy());
             _target = _monster.GetTarget(_players.Cast<ICombatMember>());
@@ -20,6 +20,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
         [Test]
         public void should_not_return_null()
         {
+            When();
             Assert.IsNotNull(_target);
         }
     }

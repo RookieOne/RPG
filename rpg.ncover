@@ -8,7 +8,7 @@
   </DefaultViewSetting>
   <NCoverRunSettings>
     <AutoExclude>true</AutoExclude>
-    <CommandLineArgs>"CombatLibraryTest.dll" "FoundationTest.dll"</CommandLineArgs>
+    <CommandLineArgs>"CombatLibraryTest.dll" "FoundationTest.dll" "C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat_Test\bin\Debug\FoundationTest.dll" "C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfCombat_Test\bin\Debug\WpfCombat_Test.dll" "C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation_Test.dll"</CommandLineArgs>
     <CommandLineExe>C:\Program Files\NUnit 2.4.8\bin\nunit-console.exe</CommandLineExe>
     <CoverageTrend>C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\trend.trend</CoverageTrend>
     <CoverageType>Symbol Branch CyclomaticComplexity MethodVisits</CoverageType>

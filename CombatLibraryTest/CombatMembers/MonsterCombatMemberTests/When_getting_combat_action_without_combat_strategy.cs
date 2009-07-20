@@ -12,9 +12,9 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
     {
         protected ICombatAction _action;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _monster.SetTargetStrategy(new RandomTargetStrategy());
             _action = _monster.GetCombatAction(_players.Cast<ICombatMember>());
@@ -23,6 +23,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
         [Test]
         public void should_return_null()
         {
+            When();
             Assert.IsNull(_action);
         }
     }

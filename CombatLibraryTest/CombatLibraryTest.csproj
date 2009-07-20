@@ -55,9 +55,9 @@
     <Compile Include="CombatEncounters\CombatEncounterTests\When_all_monsters_are_not_dead.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_all_players_are_dead.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_beginning_combat_with_monsters_and_players_set.cs" />
-    <Compile Include="CombatEncounters\CombatEncounterTests\When_recieved_all_player_actions.cs" />
-    <Compile Include="CombatEncounters\CombatEncounterTests\When_recieving_player_action.cs" />
-    <Compile Include="CombatEncounters\CombatEncounterTests\When_recieving_two_players_actions_for_same_player.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterTests\When_received_all_player_actions.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterTests\When_receiving_player_action.cs" />
+    <Compile Include="CombatEncounters\CombatEncounterTests\When_receiving_two_players_actions_for_same_player.cs" />
     <Compile Include="CombatEncounters\CombatEncounterTests\When_setting_players.cs" />
     <Compile Include="CombatEncounters\Contexts\CreatedCombatEncounterService.cs" />
     <Compile Include="CombatEncounters\Contexts\NewCombatEncounter.cs" />

@@ -9,3 +9,5 @@ C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\bin\D
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\bin\Debug\nunit.framework.dll
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\bin\Debug\Foundation.pdb
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\bin\Debug\nunit.framework.xml
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\bin\Debug\Rhino.Mocks.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\FoundationTest\bin\Debug\Rhino.Mocks.xml

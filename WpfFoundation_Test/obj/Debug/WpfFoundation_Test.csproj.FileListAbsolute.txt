@@ -1,0 +1,17 @@
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation_Test.Contracts.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation_Test.Contracts.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation_Test.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation_Test.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\nunit.framework.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\nunit.framework.xml
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\obj\Debug\WpfFoundation_Test.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\obj\Debug\WpfFoundation_Test.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\FoundationTest.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\Foundation.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\Foundation.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\FoundationTest.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\WpfFoundation.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\Rhino.Mocks.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\WpfFoundation_Test\bin\Debug\Rhino.Mocks.xml

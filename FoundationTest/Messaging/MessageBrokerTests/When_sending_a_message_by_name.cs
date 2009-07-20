@@ -8,9 +8,9 @@ namespace FoundationTest.Messaging.MessageBrokerTests
     [TestFixture]
     public class When_sending_a_message_by_name : WithMessaging
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             MessageBroker.Send(MockMessage.Name);
         }
@@ -18,6 +18,7 @@ namespace FoundationTest.Messaging.MessageBrokerTests
         [Test]
         public void should_send_message()
         {
+            When();
             Assert.AreEqual(1, _messageBroker.SentCount[MockMessage.Name]);
         }
     }

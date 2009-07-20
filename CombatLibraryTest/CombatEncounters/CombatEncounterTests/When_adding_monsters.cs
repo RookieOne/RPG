@@ -10,9 +10,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
     {
         private MonsterCombatMember _monster;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _monster = new MonsterCombatMember(10, "monster");
 
@@ -27,12 +27,14 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
         [Test]
         public void should_add_monster_to_list()
         {
+            When();
             Assert.AreEqual(_monster, _combatEncounter._monsters[0]);
         }
 
         [Test]
         public void should_have_one_monster_in_list()
         {
+            When();
             Assert.AreEqual(1, _combatEncounter._monsters.Count);
         }
     }

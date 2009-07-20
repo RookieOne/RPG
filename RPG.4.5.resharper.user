@@ -12,68 +12,68 @@
   </NAntValidationSettings>
   <RecentFiles>
     <RecentFiles>
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/d:MockCombats/d:1v1_PlayerWins/f:OneVsOne_PlayerWins.cs" caret="737" fromTop="18" />
-      <File id="D310D9DD-6B3B-47D0-820A-A0C482F603D6/d:Messaging/f:MessageBroker.cs" caret="554" fromTop="18" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:CombatActions/f:RegularAttackAction.cs" caret="833" fromTop="12" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:CombatMembers/f:CombatMember.cs" caret="520" fromTop="0" />
-      <File id="D310D9DD-6B3B-47D0-820A-A0C482F603D6/d:Eventing/f:EventAggregator.cs" caret="191" fromTop="7" />
-      <File id="D310D9DD-6B3B-47D0-820A-A0C482F603D6/d:Eventing/f:IEventAggregator.cs" caret="1260" fromTop="34" />
-      <File id="D310D9DD-6B3B-47D0-820A-A0C482F603D6/d:Eventing/f:DefaultEventAggregator.cs" caret="482" fromTop="13" />
-      <File id="CA463F3B-5F66-4E22-9788-09ACDE888B4B/d:Mocks/f:MockEventAggregator.cs" caret="2020" fromTop="59" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:Messages/f:StartCombatMessage.cs" caret="885" fromTop="26" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:Events/f:PlayersWinEvent.cs" caret="0" fromTop="0" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:Events/f:MonstersWinEvent.cs" caret="0" fromTop="0" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:Events/f:CombatStartedEvent.cs" caret="83" fromTop="3" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:Contexts/f:NewCombatEncounter.cs" caret="180" fromTop="5" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:Contexts/f:CreatedCombatEncounterService.cs" caret="358" fromTop="12" />
-      <File id="7808DBDA-3FFF-4AAC-88CF-6CE2F7EEA7FA/f:Program.cs" caret="1698" fromTop="0" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:CombatEncounters/f:ICombatEncounter.cs" caret="441" fromTop="15" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterServiceTests/f:When_recieving_start_combat_message.cs" caret="280" fromTop="9" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:CombatEncounters/f:CombatEncounterService.cs" caret="1380" fromTop="24" />
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:CombatEncounters/f:CombatEncounter.cs" caret="2692" fromTop="23" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_setting_players.cs" caret="1226" fromTop="14" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:Contexts/f:NewCombatWithSinglePlayerAndSingleMonster.cs" caret="273" fromTop="7" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_beginning_combat_with_monsters_and_players_set.cs" caret="446" fromTop="14" />
-      <File id="2EC32F2C-35DF-4999-ADC6-E6D8CD8EFB05/f:Window1.xaml.cs" caret="0" fromTop="0" />
-      <File id="2EC32F2C-35DF-4999-ADC6-E6D8CD8EFB05/f:Window1.xaml" caret="237" fromTop="5" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:ViewModel.cs" caret="248" fromTop="10" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:IViewModel.cs" caret="122" fromTop="5" />
-      <File id="D41E35F0-0A3A-45CE-86CD-685E051EE609/d:CombatEncounterView/f:CombatEncounterViewModel.cs" caret="560" fromTop="19" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenter.cs" caret="380" fromTop="14" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1006" fromTop="32" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ShellPresenter.cs" caret="145" fromTop="6" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_all_monsters_are_dead.cs" caret="954" fromTop="16" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_all_monsters_are_not_dead.cs" caret="960" fromTop="16" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_all_players_are_dead.cs" caret="943" fromTop="19" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_all_players_are_not_dead.cs" caret="949" fromTop="22" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_beginning_combat_with_monsters_and_players_set.cs" caret="602" fromTop="16" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_recieving_player_action.cs" caret="296" fromTop="0" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_recieved_all_player_actions.cs" caret="301" fromTop="0" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_setting_players.cs" caret="1423" fromTop="17" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_getting_combat_action.cs" caret="916" fromTop="15" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_getting_combat_action_without_combat_strategy.cs" caret="815" fromTop="16" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_getting_combat_action_without_target_strategy.cs" caret="809" fromTop="16" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_getting_target_with_target_strategy.cs" caret="723" fromTop="22" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_getting_target_without_target_strategy.cs" caret="596" fromTop="18" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_setting_combat_strategy.cs" caret="692" fromTop="16" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatMembers/d:MonsterCombatMemberTests/f:When_setting_target_strategy.cs" caret="678" fromTop="22" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_recieving_two_players_actions_for_same_player.cs" caret="1543" fromTop="48" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/d:MockCombats/d:1v1_PlayerLoses/f:When_players_attacks_round_two.cs" caret="785" fromTop="11" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:TargetStrategies/d:RandomTargetStrategyTests/f:When_getting_target.cs" caret="773" fromTop="29" />
+      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/d:MockCombats/d:1v1_PlayerWins/f:When_player_attacks_round_two.cs" caret="1084" fromTop="13" />
+      <File id="E9A9188D-E058-4001-8362-5FC936F5F120/d:PlayerPartyStatsView/d:PlayerCombatMemberViewModelTests/f:When_creating_view_model.cs" caret="1143" fromTop="17" />
+      <File id="E9A9188D-E058-4001-8362-5FC936F5F120/d:PlayerPartyStatsView/d:PlayerCombatMemberViewModelTests/f:When_damage_occurs_on_another_combat_member.cs" caret="721" fromTop="23" />
+      <File id="E9A9188D-E058-4001-8362-5FC936F5F120/d:PlayerPartyStatsView/d:PlayerCombatMemberViewModelTests/f:When_player_recieves_damage.cs" caret="564" fromTop="15" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Commands/d:ActionCommandTests/f:When_can_execute.cs" caret="450" fromTop="19" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Commands/d:ActionCommandTests/f:When_executed.cs" caret="401" fromTop="17" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="669" fromTop="6" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenterFacade.cs" caret="325" fromTop="11" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:Presenter.cs" caret="289" fromTop="12" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:NewDefaultPresenterFacade.cs" caret="181" fromTop="5" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_registering_a_presenter.cs" caret="255" fromTop="1" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_showing_with_a_registered_presenter.cs" caret="863" fromTop="18" />
     </RecentFiles>
     <RecentEdits>
-      <File id="A28D91E3-377C-4537-A495-D5954F5BA6E1/d:CombatEncounters/f:CombatEncounter.cs" caret="2692" fromTop="23" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_setting_players.cs" caret="1377" fromTop="29" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_beginning_combat_with_monsters_and_players_set.cs" caret="679" fromTop="23" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_beginning_combat_with_monsters_and_players_set.cs" caret="679" fromTop="17" />
-      <File id="7EDB0E50-FF07-4A5F-B7B2-C3D69531AAD4/d:CombatEncounters/d:CombatEncounterTests/f:When_beginning_combat_with_monsters_and_players_set.cs" caret="510" fromTop="17" />
-      <File id="2EC32F2C-35DF-4999-ADC6-E6D8CD8EFB05/f:Window1.xaml" caret="246" fromTop="5" />
-      <File id="D41E35F0-0A3A-45CE-86CD-685E051EE609/d:CombatEncounterView/f:CombatEncounterViewModel.cs" caret="0" fromTop="0" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:IViewModel.cs" caret="122" fromTop="5" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:ViewModel.cs" caret="705" fromTop="17" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:ViewModel.cs" caret="0" fromTop="0" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:ViewModel.cs" caret="122" fromTop="5" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:ViewModels/f:ViewModel.cs" caret="248" fromTop="10" />
-      <File id="D41E35F0-0A3A-45CE-86CD-685E051EE609/d:CombatEncounterView/f:CombatEncounterViewModel.cs" caret="414" fromTop="14" />
-      <File id="D41E35F0-0A3A-45CE-86CD-685E051EE609/d:CombatEncounterView/f:CombatEncounterViewModel.cs" caret="569" fromTop="19" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="0" fromTop="0" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenter.cs" caret="0" fromTop="0" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenter.cs" caret="124" fromTop="5" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenter.cs" caret="416" fromTop="14" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1017" fromTop="12" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1017" fromTop="15" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1017" fromTop="13" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1017" fromTop="13" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1017" fromTop="7" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1017" fromTop="15" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ContentControlPresenter.cs" caret="1007" fromTop="32" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ShellPresenter.cs" caret="612" fromTop="19" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ShellPresenter.cs" caret="755" fromTop="24" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ShellPresenter.cs" caret="982" fromTop="30" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ShellPresenter.cs" caret="283" fromTop="10" />
-      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:ShellPresenter.cs" caret="145" fromTop="6" />
+      <File id="E9A9188D-E058-4001-8362-5FC936F5F120/d:PlayerPartyStatsView/d:PlayerCombatMemberViewModelTests/f:When_player_recieves_damage.cs" caret="564" fromTop="15" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Commands/d:ActionCommandTests/f:When_can_execute.cs" caret="431" fromTop="19" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Commands/d:ActionCommandTests/f:When_executed.cs" caret="382" fromTop="17" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="2065" fromTop="26" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="651" fromTop="20" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="222" fromTop="8" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="388" fromTop="0" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="936" fromTop="14" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="1510" fromTop="5" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:DefaultPresenter.cs" caret="1268" fromTop="8" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenterFacade.cs" caret="672" fromTop="17" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenterFacade.cs" caret="672" fromTop="10" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenterFacade.cs" caret="672" fromTop="14" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:IPresenterFacade.cs" caret="436" fromTop="14" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:Presenter.cs" caret="1166" fromTop="12" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:Presenter.cs" caret="1166" fromTop="10" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:Presenter.cs" caret="1166" fromTop="15" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:Presenter.cs" caret="1166" fromTop="11" />
+      <File id="40B6C568-0C33-4195-BF11-097623B531F9/d:Presenters/f:Presenter.cs" caret="279" fromTop="0" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_registering_a_presenter.cs" caret="633" fromTop="14" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_registering_a_presenter.cs" caret="840" fromTop="21" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:NewDefaultPresenterFacade.cs" caret="416" fromTop="17" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:NewDefaultPresenterFacade.cs" caret="0" fromTop="0" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_registering_a_presenter.cs" caret="255" fromTop="1" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_registering_a_presenter.cs" caret="420" fromTop="10" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_registering_a_presenter.cs" caret="342" fromTop="5" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_showing_with_a_registered_presenter.cs" caret="320" fromTop="1" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_showing_with_a_registered_presenter.cs" caret="828" fromTop="16" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_showing_with_a_registered_presenter.cs" caret="648" fromTop="2" />
+      <File id="63AB3E0E-9581-472E-AB6E-F91192F4C9ED/d:Presenters/d:PresenterTests/f:When_showing_with_a_registered_presenter.cs" caret="1018" fromTop="23" />
     </RecentEdits>
   </RecentFiles>
   <UnitTestRunner>
@@ -85,44 +85,44 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="ICombatAction" priority="3" />
-      <Item value="public" priority="80" />
+      <Item value="public" priority="91" />
       <Item value="FightAction" priority="1" />
-      <Item value="void" priority="51" />
-      <Item value="int" priority="19" />
+      <Item value="void" priority="61" />
+      <Item value="int" priority="20" />
       <Item value="ITarget" priority="5" />
-      <Item value="protected" priority="10" />
+      <Item value="protected" priority="17" />
       <Item value="_target" priority="4" />
       <Item value="target" priority="0" />
       <Item value="double" priority="0" />
-      <Item value="private" priority="28" />
+      <Item value="private" priority="37" />
       <Item value="abstract" priority="0" />
-      <Item value="if" priority="17" />
+      <Item value="if" priority="18" />
       <Item value="OnExecute" priority="0" />
-      <Item value="bool" priority="8" />
+      <Item value="bool" priority="10" />
       <Item value="ICombatMember" priority="6" />
-      <Item value="return" priority="23" />
+      <Item value="return" priority="25" />
       <Item value="Health" priority="4" />
       <Item value="health" priority="2" />
       <Item value="_attackPower" priority="0" />
       <Item value="virtual" priority="1" />
       <Item value="ContextSpecification" priority="6" />
-      <Item value="override" priority="26" />
+      <Item value="override" priority="38" />
       <Item value="_singlePlayer" priority="4" />
-      <Item value="new" priority="54" />
-      <Item value="PlayerCombatMember" priority="13" />
+      <Item value="new" priority="61" />
+      <Item value="PlayerCombatMember" priority="14" />
       <Item value="RegularAttackActionTests" priority="0" />
       <Item value="SingleTarget" priority="4" />
       <Item value="this" priority="12" />
-      <Item value="static" priority="15" />
-      <Item value="combatMember" priority="2" />
+      <Item value="static" priority="17" />
+      <Item value="combatMember" priority="3" />
       <Item value="combatAction" priority="0" />
       <Item value="CombatMember" priority="1" />
       <Item value="Single" priority="1" />
       <Item value="_combatMember" priority="0" />
       <Item value="damage" priority="0" />
-      <Item value="Assert" priority="20" />
+      <Item value="Assert" priority="25" />
       <Item value="ICombatEncounter" priority="1" />
-      <Item value="interface" priority="2" />
+      <Item value="interface" priority="3" />
       <Item value="TargetStrategies" priority="0" />
       <Item value="ITargetStrategy" priority="1" />
       <Item value="targetStrategy" priority="1" />
@@ -130,7 +130,7 @@
       <Item value="RandomTargetStrategy" priority="2" />
       <Item value="Random" priority="0" />
       <Item value="combatMembers" priority="1" />
-      <Item value="var" priority="18" />
+      <Item value="var" priority="19" />
       <Item value="List" priority="13" />
       <Item value="_combatMembers" priority="3" />
       <Item value="List&lt;ICombatMember&gt;" priority="0" />
@@ -145,9 +145,9 @@
       <Item value="players" priority="1" />
       <Item value="foreach" priority="5" />
       <Item value="monster" priority="0" />
-      <Item value="true" priority="5" />
+      <Item value="true" priority="6" />
       <Item value="allMonstersAreDead" priority="1" />
-      <Item value="false" priority="6" />
+      <Item value="false" priority="7" />
       <Item value="break" priority="1" />
       <Item value="allPlayersAreDead" priority="0" />
       <Item value="CombatEncounter" priority="4" />
@@ -165,10 +165,10 @@
       <Item value="EventCount" priority="4" />
       <Item value="Dictionary&lt;T,int&gt;" priority="0" />
       <Item value="Type" priority="3" />
-      <Item value="string" priority="16" />
+      <Item value="string" priority="18" />
       <Item value="eventName" priority="6" />
       <Item value="RecordEvent" priority="0" />
-      <Item value="_eventAggregator" priority="16" />
+      <Item value="_eventAggregator" priority="18" />
       <Item value="subscriptionAction" priority="1" />
       <Item value="_items" priority="2" />
       <Item value="_count" priority="0" />
@@ -214,7 +214,7 @@
       <Item value="Player" priority="2" />
       <Item value="List&lt;PlayerCombatMember&gt;" priority="1" />
       <Item value="player" priority="2" />
-      <Item value="WithEventing" priority="1" />
+      <Item value="WithEventing" priority="2" />
       <Item value="PublicationCount" priority="1" />
       <Item value="count" priority="0" />
       <Item value="Console" priority="9" />
@@ -227,7 +227,7 @@
       <Item value="foundAction" priority="1" />
       <Item value="NewCombatEncounter" priority="0" />
       <Item value="NewCombatWithPlayersSet" priority="0" />
-      <Item value="_player" priority="1" />
+      <Item value="_player" priority="6" />
       <Item value="IPlayerCombatMember" priority="2" />
       <Item value="action" priority="0" />
       <Item value="WithEventingAndMessaging" priority="0" />
@@ -244,12 +244,12 @@
       <Item value="null" priority="2" />
       <Item value="_party" priority="4" />
       <Item value="Convert" priority="0" />
-      <Item value="e" priority="3" />
+      <Item value="e" priority="6" />
       <Item value="combatEncounter" priority="0" />
       <Item value="while" priority="0" />
-      <Item value="DamageEvent" priority="1" />
+      <Item value="DamageEvent" priority="2" />
       <Item value="EventAggregator" priority="5" />
-      <Item value="Name" priority="0" />
+      <Item value="Name" priority="1" />
       <Item value="name" priority="0" />
       <Item value="base" priority="1" />
       <Item value="RoundBeganEvent" priority="0" />
@@ -267,23 +267,49 @@
       <Item value="PropertyChangedEventArgs" priority="0" />
       <Item value="propertyName" priority="0" />
       <Item value="CombatEncounterViewModel" priority="0" />
-      <Item value="IPresenter" priority="5" />
+      <Item value="IPresenter" priority="7" />
       <Item value="ContentControlPresenter" priority="0" />
       <Item value="_control" priority="1" />
-      <Item value="viewModel" priority="1" />
-      <Item value="Presenter" priority="0" />
+      <Item value="viewModel" priority="2" />
+      <Item value="Presenter" priority="2" />
       <Item value="Dictionary&lt;string,IPresenter&gt;" priority="0" />
       <Item value="_presenters" priority="1" />
-      <Item value="key" priority="1" />
-      <Item value="presenter" priority="3" />
+      <Item value="key" priority="3" />
+      <Item value="presenter" priority="4" />
+      <Item value="PlayerCombatMemberViewModel" priority="3" />
+      <Item value="playerCombatMember" priority="2" />
+      <Item value="OnPropertyChanged" priority="2" />
+      <Item value="CurrentHealth" priority="1" />
+      <Item value="TotalHealth" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="Guid" priority="0" />
+      <Item value="_viewModel" priority="6" />
+      <Item value="_event" priority="1" />
+      <Item value="_commandExecuted" priority="3" />
+      <Item value="ActionCommand" priority="0" />
+      <Item value="NewActionCommand" priority="0" />
+      <Item value="_result" priority="1" />
+      <Item value="_command" priority="0" />
+      <Item value="_mock" priority="4" />
+      <Item value="MockRepository" priority="0" />
+      <Item value="_presenter" priority="5" />
+      <Item value="_key" priority="1" />
+      <Item value="IViewModel" priority="0" />
+      <Item value="SetExpectations" priority="2" />
+      <Item value="OnWhen" priority="0" />
+      <Item value="When" priority="3" />
+      <Item value="IPresenterFacade" priority="0" />
+      <Item value="DefaultPresenterFacade" priority="2" />
+      <Item value="_facade" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:CombatLibrary.CombatActions.ITarget">
       <Item value="TakeDamage" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:CombatLibrary.CombatMembers.PlayerCombatMember">
       <Item value="AddHealth" priority="0" />
-      <Item value="Health" priority="0" />
-      <Item value="IsDead" priority="0" />
+      <Item value="Health" priority="2" />
+      <Item value="IsDead" priority="1" />
+      <Item value="Name" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:CombatLibrary.CombatActions.RegularAttackAction">
       <Item value="Execute" priority="0" />
@@ -296,6 +322,7 @@
     <ItemStatistics item="Qualified:CombatLibrary.CombatMembers.ICombatMember">
       <Item value="TakeDamage" priority="0" />
       <Item value="Name" priority="0" />
+      <Item value="Id" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
       <Item value="AreEqual" priority="1" />
@@ -317,8 +344,8 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="IsInstanceOfType" priority="0" />
-      <Item value="IsTrue" priority="6" />
-      <Item value="AreEqual" priority="11" />
+      <Item value="IsTrue" priority="7" />
+      <Item value="AreEqual" priority="15" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Contains" priority="2" />
@@ -348,7 +375,7 @@
     <ItemStatistics item="Qualified:@Foundation.Eventing.EventAggregator">
       <Item value="Publish" priority="4" />
       <Item value="SetAggregator" priority="1" />
-      <Item value="Subscribe" priority="4" />
+      <Item value="Subscribe" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Foundation.Eventing.DefaultEventAggregator">
       <Item value="Publish" priority="3" />
@@ -356,7 +383,7 @@
       <Item value="_subscriptions" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
-      <Item value="ContainsKey" priority="0" />
+      <Item value="ContainsKey" priority="1" />
       <Item value="Add" priority="1" />
       <Item value="TryGetValue" priority="1" />
     </ItemStatistics>
@@ -374,6 +401,7 @@
       <Item value="SubscriptionCount" priority="1" />
       <Item value="PublicationCount" priority="0" />
       <Item value="GetPublicationCount" priority="2" />
+      <Item value="Publish" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Foundation.Messaging.IMessageBroker">
       <Item value="Send" priority="2" />
@@ -430,8 +458,8 @@
       <Item value="SetCombatActionStrategy" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:CombatLibrary.Events.DamageEvent">
-      <Item value="CombatMember" priority="0" />
-      <Item value="Damage" priority="0" />
+      <Item value="CombatMember" priority="1" />
+      <Item value="Damage" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Foundation.Eventing.IEventAggregator">
       <Item value="Subscribe" priority="2" />
@@ -444,7 +472,44 @@
       <Item value="Create" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:WpfFoundation.Presenters.IPresenter">
+      <Item value="Show" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WpfCombat.PlayerPartyStatsView.PlayerCombatMemberViewModel">
+      <Item value="CurrentHealth" priority="1" />
+      <Item value="TotalHealth" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WpfFoundation.Commands.ActionCommand">
+      <Item value="CanExecute" priority="0" />
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WpfFoundation.Presenters.Presenter">
+      <Item value="Register" priority="0" />
+      <Item value="_presenters" priority="0" />
       <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="ReplayAll" priority="1" />
+      <Item value="Stub" priority="1" />
+      <Item value="DynamicMock" priority="1" />
+      <Item value="VerifyAll" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Rhino.Mocks.Expect">
+      <Item value="On" priority="0" />
+      <Item value="Call" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action">
+      <Item value="Invoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WpfFoundation.Presenters.IPresenterFacade">
+      <Item value="Register" priority="0" />
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

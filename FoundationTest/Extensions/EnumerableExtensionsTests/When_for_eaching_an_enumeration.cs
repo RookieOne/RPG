@@ -24,9 +24,9 @@ namespace FoundationTest.Extensions.EnumerableExtensionsTests
                          };
         }
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _items.ForEach(i =>
                                {
@@ -38,12 +38,15 @@ namespace FoundationTest.Extensions.EnumerableExtensionsTests
         [Test]
         public void should_execute_action_for_every_item()
         {
+            When();
             Assert.AreEqual(3, _count);
         }
 
         [Test]
         public void should_execute_action_on_every_item()
         {
+            When();
+
             foreach (var item in _items)
             {
                 Assert.AreEqual(1, item.Num);

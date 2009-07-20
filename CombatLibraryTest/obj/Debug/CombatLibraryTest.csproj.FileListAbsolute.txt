@@ -13,3 +13,5 @@ C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bi
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\Foundation.pdb
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\FoundationTest.dll
 C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\FoundationTest.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\Rhino.Mocks.dll
+C:\Users\Jonathan\Documents\Visual Studio 2008\Projects\RPG\CombatLibraryTest\bin\Debug\Rhino.Mocks.xml

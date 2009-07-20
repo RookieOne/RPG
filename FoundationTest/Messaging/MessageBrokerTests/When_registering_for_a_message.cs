@@ -11,9 +11,9 @@ namespace FoundationTest.Messaging.MessageBrokerTests
     {
         private Action<MockMessage> _action;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _action = (m) => { };
 
@@ -23,6 +23,7 @@ namespace FoundationTest.Messaging.MessageBrokerTests
         [Test]
         public void should_have_only_one_registration()
         {
+            When();
             Assert.AreEqual(1, _messageBroker.RegistrationCount[typeof (MockMessage).Name]);
         }
     }

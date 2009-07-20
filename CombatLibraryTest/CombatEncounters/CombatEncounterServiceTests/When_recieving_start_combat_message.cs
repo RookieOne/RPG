@@ -9,9 +9,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterServiceTests
     [TestFixture]
     public class When_recieving_start_combat_message : CreatedCombatEncounterService
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             var message = new StartCombatMessage(null, null);
             MessageBroker.Send(message);
@@ -20,6 +20,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterServiceTests
         [Test]
         public void should_recieve_combat_started_event()
         {
+            When();
             Assert.AreEqual(1, _eventAggregator.GetPublicationCount<CombatStartedEvent>());
         }
     }

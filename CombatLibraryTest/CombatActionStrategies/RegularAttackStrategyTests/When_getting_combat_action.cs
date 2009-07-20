@@ -10,9 +10,9 @@ namespace CombatLibraryTest.CombatActionStrategies.RegularAttackStrategyTests
     {
         private ICombatAction _action;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _action = new RegularAttackStrategy().GetCombatAction(null);
         }
@@ -20,6 +20,7 @@ namespace CombatLibraryTest.CombatActionStrategies.RegularAttackStrategyTests
         [Test]
         public void should_return_a_regular_attack()
         {
+            When();
             Assert.IsInstanceOfType(typeof(RegularAttackAction), _action);
         }
     }

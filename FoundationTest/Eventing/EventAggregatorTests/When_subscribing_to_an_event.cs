@@ -11,9 +11,9 @@ namespace FoundationTest.Eventing.EventAggregatorTests
     {
         private Action<MockEvent> _action;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _action = (m) => { };
 
@@ -23,6 +23,7 @@ namespace FoundationTest.Eventing.EventAggregatorTests
         [Test]
         public void should_have_only_one_subscription()
         {
+            When();
             Assert.AreEqual(1, _eventAggregator.SubscriptionCount[typeof (MockEvent).Name]);
         }
     }

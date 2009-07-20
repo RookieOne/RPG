@@ -21,9 +21,9 @@ namespace FoundationTest.Eventing.DefaultEventAggregatorTests
             _eventAggregator.Subscribe(_action);
         }
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _eventAggregator.Publish(new MockEvent());
         }
@@ -31,6 +31,7 @@ namespace FoundationTest.Eventing.DefaultEventAggregatorTests
         [Test]
         public void should_execute_subscription_action()
         {
+            When();
             Assert.IsTrue(_actionExecuted);
         }
     }

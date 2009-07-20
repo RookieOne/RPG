@@ -12,9 +12,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
     {
         private List<PlayerCombatMember> _players;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _players = new List<PlayerCombatMember>
                            {
@@ -27,12 +27,14 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
         [Test]
         public void should_set_players_in_combat_encounter()
         {
+            When();
             Assert.AreEqual(_players.Count, _combatEncounter._players.Count());
         }
 
         [Test]
         public void should_be_the_same_players()
         {
+            When();
             foreach(var player in _players)
                 Assert.IsTrue(_combatEncounter._players.Contains(player));
         }
@@ -40,6 +42,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
         [Test]
         public void should_not_send_player_ready_for_action_events_for_each_player()
         {
+            When();
             Assert.AreEqual(0, _eventAggregator.GetPublicationCount<PlayerReadyForActionEvent>());
         }
     }

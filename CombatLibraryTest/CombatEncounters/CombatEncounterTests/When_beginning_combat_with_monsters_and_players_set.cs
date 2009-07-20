@@ -7,9 +7,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
     [TestFixture]
     public class When_beginning_combat_with_monsters_and_players_set : NewCombatWithSinglePlayerAndSingleMonster
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _combatEncounter.BeginCombat();
         }
@@ -17,6 +17,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
         [Test]
         public void should_send_player_ready_for_action_events_for_each_player()
         {
+            When();
             Assert.AreEqual(1, _eventAggregator.GetPublicationCount<PlayerReadyForActionEvent>());
         }
     }

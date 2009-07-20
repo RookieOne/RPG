@@ -9,9 +9,9 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
     {
         private ITarget _target;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _target = _monster.GetTarget(null);
         }
@@ -19,6 +19,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
         [Test]
         public void should_return_null()
         {
+            When();
             Assert.IsNull(_target);
         }
     }

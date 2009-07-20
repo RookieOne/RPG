@@ -9,9 +9,9 @@ namespace CombatLibraryTest.TargetStrategies.RandomTargetStrategyTests
     {
         private ITarget _target;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _target = new RandomTargetStrategy().GetTarget(_combatMembers);
         }
@@ -19,12 +19,15 @@ namespace CombatLibraryTest.TargetStrategies.RandomTargetStrategyTests
         [Test]
         public void should_be_a_single_target()
         {
+            When();
             Assert.IsInstanceOfType(typeof (SingleTarget), _target);
         }
 
         [Test]
         public void should_return_one_of_the_combat_members()
         {
+            When();
+
             var singleTarget = _target as SingleTarget;
 
             Assert.IsTrue(_combatMembers.Contains(singleTarget.CombatMember));

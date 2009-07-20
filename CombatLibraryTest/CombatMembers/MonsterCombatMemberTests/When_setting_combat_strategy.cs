@@ -9,9 +9,9 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
     {
         private RegularAttackStrategy _combatStrategy;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _combatStrategy = new RegularAttackStrategy();
             _monster.SetCombatActionStrategy(_combatStrategy);
@@ -20,6 +20,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
         [Test]
         public void should_set_combat_strategy()
         {
+            When();
             Assert.AreEqual(_combatStrategy, _monster._combatActionStrategy);
         }
     }

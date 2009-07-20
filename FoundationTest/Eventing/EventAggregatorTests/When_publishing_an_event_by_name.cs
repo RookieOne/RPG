@@ -8,9 +8,9 @@ namespace FoundationTest.Eventing.EventAggregatorTests
     [TestFixture]
     public class When_publishing_an_event_by_name : WithEventing
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             EventAggregator.Publish(MockEvent.Name);
         }
@@ -18,6 +18,7 @@ namespace FoundationTest.Eventing.EventAggregatorTests
         [Test]
         public void should_publish_event()
         {
+            When();
             Assert.AreEqual(1, _eventAggregator.PublicationCount[MockEvent.Name]);
         }
     }

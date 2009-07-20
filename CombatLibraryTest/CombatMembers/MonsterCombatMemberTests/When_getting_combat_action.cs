@@ -13,9 +13,9 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
     {
         protected ICombatAction _action;
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _monster.SetTargetStrategy(new RandomTargetStrategy());
             _monster.SetCombatActionStrategy(new RegularAttackStrategy());
@@ -25,6 +25,7 @@ namespace CombatLibraryTest.CombatMembers.MonsterCombatMemberTests
         [Test]
         public void should_not_return_null()
         {
+            When();
             Assert.IsNotNull(_action);
         }
     }

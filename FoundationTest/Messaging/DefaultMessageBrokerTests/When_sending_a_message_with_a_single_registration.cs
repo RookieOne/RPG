@@ -21,9 +21,9 @@ namespace FoundationTest.Messaging.DefaultMessageBrokerTests
             _messageBroker.Register(_action);
         }
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _messageBroker.Send(new MockMessage());
         }
@@ -31,6 +31,7 @@ namespace FoundationTest.Messaging.DefaultMessageBrokerTests
         [Test]
         public void should_execute_action()
         {
+            When();
             Assert.IsTrue(_actionExecuted);
         }
     }

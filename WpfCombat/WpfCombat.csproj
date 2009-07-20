@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="CombatEncounterView\CombatEncounterViewModel.cs" />
     <Compile Include="Coordinators\CombatEncounterCoordinator.cs" />
+    <Compile Include="PlayerPartyStatsView\PlayerCombatMemberViewModel.cs" />
     <Compile Include="PlayerPartyStatsView\PlayerPartyStatsViewModel.cs" />
     <Compile Include="Presenters\CombatPresenters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

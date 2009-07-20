@@ -22,9 +22,9 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
             _combatEncounter.SetPlayers(players);
         }
 
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _result = _combatEncounter.AllPlayersAreDead();
         }
@@ -32,6 +32,7 @@ namespace CombatLibraryTest.CombatEncounters.CombatEncounterTests
         [Test]
         public void should_return_false()
         {
+            When();
             Assert.IsFalse(_result);
         }
     }

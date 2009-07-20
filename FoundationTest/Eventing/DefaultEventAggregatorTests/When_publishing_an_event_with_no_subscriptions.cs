@@ -7,9 +7,9 @@ namespace FoundationTest.Eventing.DefaultEventAggregatorTests
     [TestFixture]
     public class When_publishing_an_event_with_no_subscriptions : NewDefaultEventAggregator
     {
-        public override void When()
+        public override void OnWhen()
         {
-            base.When();
+            base.OnWhen();
 
             _eventAggregator.Publish(new MockEvent());
         }
@@ -17,6 +17,7 @@ namespace FoundationTest.Eventing.DefaultEventAggregatorTests
         [Test]
         public void should_not_throw_an_exception()
         {
+            When();
             Assert.IsTrue(true);
         }
     }
